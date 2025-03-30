@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7330E530-BF22-4DA3-96D2-52C8A8552237}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7330E530-BF22-4DA3-96D2-52C8A8552237}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85624C5A-E20D-4B1A-A06B-5C12ADBB0729}|GymMembership\\GymMembership.API.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85624C5A-E20D-4B1A-A06B-5C12ADBB0729}|GymMembership\\GymMembership.API.csproj|solutionrelative:gymmembership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -100,13 +100,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Program.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Program.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership\\Program.cs",
+              "RelativeDocumentMoniker": "GymMembership\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership\\Program.cs",
+              "RelativeToolTip": "GymMembership\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T19:07:22.557Z",
+              "WhenOpened": "2025-03-28T19:07:44.625Z",
               "EditorCaption": ""
             }
           ]
