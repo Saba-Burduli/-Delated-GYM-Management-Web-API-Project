@@ -5,6 +5,7 @@ Using in ASP.NET Core Entity Framework (ORM) is most popular and correct Practic
 
 For Security Main most important thing in Code is to create Repository and Service Interfaces. Most Important methods for Secured is mostly:
 <ul>
+  
   <li>Payment()</li>
   <li>RegisterUser()</li>
   <li> SubscripitonInfo()</li>
