@@ -44,6 +44,7 @@ Let's Talk about layers in my Project :
     - **Validation & Authentication**: Ensures data integrity and security.
     - **Response Formatting**: Returns data in JSON or XML format for easy consumption.
     </p>
+
     
   <h3><li>Service Layer</li></h3>
     <p> The Service Layer acts as an intermediary between the API layer and the data access layer (DAL).
