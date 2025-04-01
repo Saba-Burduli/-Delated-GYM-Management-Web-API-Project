@@ -8,6 +8,7 @@ For Security Main most important thing in Code is to create Repository and Servi
 Secured is mostly:
 
 <ul>
+
   
   <li>Payment()</li>
   <li>RegisterUser()</li>
