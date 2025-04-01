@@ -9,7 +9,6 @@ Secured is mostly:
 
 <ul>
 
-  
   <li>Payment()</li>
   <li>RegisterUser()</li>
   <li> SubscripitonInfo()</li>
