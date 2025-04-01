@@ -65,7 +65,7 @@ We gonna add and create in IRepository Folder . Because If non ethical hacker tr
   </p>
   
 </ol>
-Layer System is Most Important Part in ASP.NET. Because
+Layer System is Most Important Part in ASP.NET.Because
 
 <br>
 
