@@ -50,16 +50,16 @@ We gonna add and create in IRepository Folder . Because If non ethical hacker tr
     </p>
 
     
-  <h3> 🔗 <li>Service Layer</li></h3>
+  <h3><li>🔗Service Layer</li></h3>
     <p> The Service Layer acts as an intermediary between the API layer and the data access layer (DAL).
       It contains business logic and ensures a clean separation of concerns.
   </p>
   
-  <h3> 🔗 <li>DAL (Data Access Layer)</li></h3>
+  <h3><li>🔗DAL (Data Access Layer)</li></h3>
     <p>The DAL handles direct interactions with the database, abstracting raw database operations.
   </p>
   
-  <h3>  🔗 <li>Data Layer</li></h3>
+  <h3><li>🔗Data Layer</li></h3>
     <p>The Data Layer consists of models and database configurations, ensuring proper database mapping.
     
   </p>
