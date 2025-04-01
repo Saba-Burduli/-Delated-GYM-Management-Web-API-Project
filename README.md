@@ -71,7 +71,7 @@ Layer System is Most Important Part in ASP.NET. Because Building APIs is Not jus
 
 <ol>
   
-  <li>Security.</li>
+  <li>Security</li>
   
 </ol>
 
