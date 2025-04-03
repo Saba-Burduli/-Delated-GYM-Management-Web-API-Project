@@ -15,10 +15,6 @@ Secured is mostly:
   <li>RegisterUser()</li>
   
   <li> SubscripitonInfo()</li>
-
-
-
-
 </ul>
 
 
