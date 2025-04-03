@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GymMembership.DATA.Entities
 {
-    public class Person
+    public class Membership
     {
     }
 }
