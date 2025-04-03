@@ -83,7 +83,7 @@ There is many different things to do like :</h3>
 
 <h2>Gym Membership Models(Enitity Clasess):</h2>
 
-      <h3>User</h3>
+      User
     ▪ UserId: int
     ▪ Username: string
     ▪ PasswordHash: string
