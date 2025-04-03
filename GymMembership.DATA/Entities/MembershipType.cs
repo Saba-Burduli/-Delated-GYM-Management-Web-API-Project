@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace GymMembership.DATA.Entities
 {
+    
     public class MembershipType
     {
+       
     }
 }
