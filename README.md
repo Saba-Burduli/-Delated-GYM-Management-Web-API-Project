@@ -99,8 +99,15 @@ There is many different things to do like :</h3>
      ▪ RoleId: int
      ▪ RoleName: string (Admin, Trainer, Member)
 
+  
+  <br>
+  <h3>Person</h3>
 
-
+    ▪ PersonId: int
+    ▪ FirstName: string (20)
+    ▪ LastName: string (30)
+    ▪ Phone: string (20)
+    ▪ Address: string (50)
             
 For more Info Contact Me on My Mail : sabagg790@gmail.com
 
