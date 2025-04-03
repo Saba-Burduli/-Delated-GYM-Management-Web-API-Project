@@ -81,7 +81,66 @@ There is many different things to do like :</h3>
 
 <br>
 
+<h2>Gym Membership Models(Enitity Clasess):</h2>
 
+  <h3>User</h3>
+      
+    ▪ UserId: int
+    ▪ Username: string
+    ▪ PasswordHash: string
+    ▪ Email: string
+    ▪ RegistrationDate: datetime
+    ▪ PersonId: int
+
+
+  <br>
+  <h3>RoleUser (It shoud be created using configuration)></h3>
+  
+     ▪ RoleId: int
+     ▪ RoleName: string (Admin, Trainer, Member)
+
+  
+  <h3>Person</h3>
+
+    ▪ PersonId: int
+    ▪ FirstName: string (20)
+    ▪ LastName: string (30)
+    ▪ Phone: string (20)
+    ▪ Address: string (50)
+    
+Note: User – Person has one to one relationship
+
+  <h3>GymClass</h3>
+  
+      ▪ Id: int
+      ▪ GymClassName (wrestling, judo, karate, boxing)
+
+<h3>GymClassUsers</h3>
+
+    ▪ Id: int
+    ▪ GymClassId: int
+    ▪ UserId: int
+
+<h3>Membership</h3>
+
+    ▪ Id: int
+    ▪ UserId: int
+    ▪ MembershipTypeId: int
+    ▪ StartDate: DateTime
+    ▪ EndDate: DateTime
+    ▪ IsActive: bool => DateTime.UtcNow >= StartDate && DateTime.UtcNow <= EndDate;
+    ▪ Price: decimal
+
+
+
+
+<h3>MembershipType</h3>
+
+    ▪ Id: int
+    ▪ MembershipTypeName: string (monthly, yearly, VIP)
+
+
+      
 For more Info Contact Me on My Mail : sabagg790@gmail.com
 
 
