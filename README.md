@@ -81,8 +81,15 @@ There is many different things to do like :</h3>
 
 <br>
 
-<h3>Gym Membership Models(Enitity Clasess):</h3>
+<h2>Gym Membership Models(Enitity Clasess):</h2>
 
+      User
+    ▪ UserId: int
+    ▪ Username: string
+    ▪ PasswordHash: string
+    ▪ Email: string
+    ▪ RegistrationDate: datetime
+    ▪ PersonId: int
 
 For more Info Contact Me on My Mail : sabagg790@gmail.com
 
