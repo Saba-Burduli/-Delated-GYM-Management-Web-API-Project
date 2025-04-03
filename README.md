@@ -127,10 +127,17 @@ Note: User – Person has one to one relationship
     ▪ UserId: int
     ▪ MembershipTypeId: int
     ▪ StartDate: DateTime
+    ▪ EndDate: DateTime
+    ▪ IsActive: bool => DateTime.UtcNow >= StartDate && DateTime.UtcNow <= EndDate;
+    ▪ Price: decimal
 
 
 
 
+<h3>MembershipType</h3>
+
+    ▪ Id: int
+    ▪ MembershipTypeName: string (monthly, yearly, VIP)
 
 
     
