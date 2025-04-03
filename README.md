@@ -120,6 +120,20 @@ Note: User – Person has one to one relationship
     ▪ Id: int
     ▪ GymClassId: int
     ▪ UserId: int
+
+<h3>Membership</h3>
+
+    ▪ Id: int
+    ▪ UserId: int
+    ▪ MembershipTypeId: int
+    ▪ StartDate: DateTime
+
+
+
+
+
+
+    
             
 For more Info Contact Me on My Mail : sabagg790@gmail.com
 
