@@ -13,6 +13,7 @@ Secured is mostly:
 
   <li>Payment()</li>
   <li>RegisterUser()</li>
+  
   <li> SubscripitonInfo()</li>
 
   
