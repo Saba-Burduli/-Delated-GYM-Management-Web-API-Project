@@ -100,7 +100,6 @@ There is many different things to do like :</h3>
      ▪ RoleName: string (Admin, Trainer, Member)
 
   
-  <br>
   <h3>Person</h3>
 
     ▪ PersonId: int
