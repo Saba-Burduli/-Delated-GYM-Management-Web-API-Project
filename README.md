@@ -92,6 +92,16 @@ There is many different things to do like :</h3>
     ▪ RegistrationDate: datetime
     ▪ PersonId: int
 
+
+  <br>
+  <h3RoleUser (It shoud be created using configuration)></h3>
+  
+            ▪ RoleId: int
+            ▪ RoleName: string (Admin, Trainer, Member)
+
+
+
+            
 For more Info Contact Me on My Mail : sabagg790@gmail.com
 
 
