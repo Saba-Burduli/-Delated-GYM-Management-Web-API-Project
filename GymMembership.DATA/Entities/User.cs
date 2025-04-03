@@ -27,6 +27,8 @@ namespace GymMembership.DATA.Entities
 
 
         //Relations:
+
+        //User =>Person ; one to one ; (user) => (person)
         [ForeignKey("Person")]
         public int PersonId { get; set; }
 
