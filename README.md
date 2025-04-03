@@ -94,7 +94,7 @@ There is many different things to do like :</h3>
 
 
   <br>
-  <h3RoleUser (It shoud be created using configuration)></h3>
+  <h3>RoleUser (It shoud be created using configuration)></h3>
   
             ▪ RoleId: int
             ▪ RoleName: string (Admin, Trainer, Member)
