@@ -122,6 +122,7 @@ Note: User – Person has one to one relationship
     ▪ GymClassId: int
     ▪ UserId: int
 
+
 <h3>Membership</h3>
 
     ▪ Id: int
