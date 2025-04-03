@@ -135,8 +135,6 @@ Note: User – Person has one to one relationship
     ▪ Price: decimal
 
 
-
-
 <h3>MembershipType</h3>
 
     ▪ Id: int
