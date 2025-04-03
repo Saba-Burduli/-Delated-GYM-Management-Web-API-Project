@@ -107,6 +107,19 @@ There is many different things to do like :</h3>
     ▪ LastName: string (30)
     ▪ Phone: string (20)
     ▪ Address: string (50)
+    
+Note: User – Person has one to one relationship
+
+  <h3>GymClass</h3>
+  
+      ▪ Id: int
+      ▪ GymClassName (wrestling, judo, karate, boxing)
+
+<h3>GymClassUsers</h3>
+
+    ▪ Id: int
+    ▪ GymClassId: int
+    ▪ UserId: int
             
 For more Info Contact Me on My Mail : sabagg790@gmail.com
 
