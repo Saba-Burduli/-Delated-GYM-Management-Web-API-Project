@@ -12,6 +12,6 @@ namespace GymMembership.DATA.Entities
         [Key]
         public int PersonId { get; set; }
 
-
+        //elfnipoenf
     }
 }
