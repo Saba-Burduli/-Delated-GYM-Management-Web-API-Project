@@ -37,7 +37,7 @@ We gonna add and create in IRepository Folder.Because If non ethical hacker tryi
   
  <h3><li>API Layer</li></h3> 
     <p>
-      The **API layer** is responsible for handling **HTTP requests and responses** in an ASP.NET Web API project. It acts as the bridge between the client applications and          the database.
+      The **API layer** is responsible for handling **HTTP requests and responses** in an ASP.NET Web API project. It acts as the bridge between the client applications and the database.
 
       
     ### Key Responsibilities
