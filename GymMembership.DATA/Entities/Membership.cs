@@ -26,7 +26,6 @@ namespace GymMembership.DATA.Entities
 
 
         //Relations:
-
         //Membership => MembershipType ; one to one ; (Membership) => (MembershipType)
         [ForeignKey("MembershipType")]
         public int MembershipTypeId { get; set; }
