@@ -21,8 +21,10 @@ namespace GymMembership.DATA.Entities
 
         [Required]
         public string? PasswordHash { get; set; }
+        
         [Required]
         public string? Email { get; set; }
+        
         public DateTime RegistrationDate { get; set; } = DateTime.Now;
 
 
