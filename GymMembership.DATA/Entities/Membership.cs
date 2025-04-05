@@ -16,7 +16,7 @@ namespace GymMembership.DATA.Entities
         public int MembershipId { get; set; }
 
         [Required]
-        public DateTime StartDate { get; set; } = DateTime.UtcNow;//we gonna test it now .. if it works i shouldnt add DateTime.Now
+        public DateTime StartDate { get; set; } = DateTime.UtcNow; //we gonna test it now .. if it works i shouldnt add DateTime.Now
         
         [Required]
         public DateTime EndDate { get; set; } = DateTime.UtcNow;//we gonna test it now .. if it works i shouldnt add DateTime.Now
