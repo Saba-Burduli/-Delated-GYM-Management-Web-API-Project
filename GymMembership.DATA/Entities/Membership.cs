@@ -24,7 +24,6 @@ namespace GymMembership.DATA.Entities
         [Required]
         public bool IsActive { get; set; }
 
-
         //Relations:
         //Membership => MembershipType ; one to one ; (Membership) => (MembershipType)
         [ForeignKey("MembershipType")]
