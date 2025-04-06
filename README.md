@@ -149,7 +149,7 @@ Note: User – Person has one to one relationship
     ▪ MembershipTypeName: string (monthly, yearly, VIP)
 
 <h1>Repositories</h1>
-<p></p>
+<p>We have to determate independetly</p>
 <h1>Services</h1>
 
       
