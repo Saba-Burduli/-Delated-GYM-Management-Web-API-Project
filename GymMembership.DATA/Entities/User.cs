@@ -25,7 +25,7 @@ namespace GymMembership.DATA.Entities
         public string? Email { get; set; }
         public DateTime RegistrationDate { get; set; } = DateTime.Now;
 
-
+        
         //Relations:
 
         //User =>Person ; one to one ; (user) => (person)
