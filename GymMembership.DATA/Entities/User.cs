@@ -21,13 +21,14 @@ namespace GymMembership.DATA.Entities
 
         [Required]
         public string? PasswordHash { get; set; }
+        
         [Required]
         public string? Email { get; set; }
+        
         public DateTime RegistrationDate { get; set; } = DateTime.Now;
 
         
         //Relations:
-
         //User =>Person ; one to one ; (user) => (person)
         [ForeignKey("Person")]
         public int PersonId { get; set; }

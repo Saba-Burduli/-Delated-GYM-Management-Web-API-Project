@@ -22,9 +22,11 @@ namespace GymMembership.DATA.Entities
         [Required]
         [MaxLength(30, ErrorMessage = "LastName is more than 30 letter")]
         public string? LastName { get; set; }
+        
         [Required]
         [MaxLength(20,ErrorMessage ="Phone number is more than 20 letter")]
         public string? Phone { get; set; }
+        
         [Required]
         [MaxLength(50,ErrorMessage ="address is more than 50 letter")]
         public string? Address { get; set; }
