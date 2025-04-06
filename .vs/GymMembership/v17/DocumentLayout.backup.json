@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,28 +138,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GymClassUsers.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\GymClassUsers.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T19:38:52.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GymClass.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClass.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\GymClass.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClass.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\GymClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAByAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:38:24.225Z"
+              "WhenOpened": "2025-04-03T19:38:24.225Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
