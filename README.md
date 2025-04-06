@@ -148,7 +148,7 @@ Note: User – Person has one to one relationship
     ▪ Id: int
     ▪ MembershipTypeName: string (monthly, yearly, VIP)
 
-<h1>repositories</h1>
+<h1>Repositories</h1>
 <h1>Services</h1>
 
       
