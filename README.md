@@ -152,7 +152,7 @@ Note: User – Person has one to one relationship
 <p>We have to determate independetly</p>
 <h1>Services</h1>
 
-Creator Comic 
+Creator Comic Solvency
 For more Info Contact Me on My Mail : sabagg790@gmail.com
 
 
