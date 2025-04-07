@@ -17,6 +17,7 @@ namespace GymMembership.DATA.Entities
 
 
         
+
         
         [Required]
         public DateTime StartDate { get; set; } = DateTime.UtcNow; //we gonna test it now .. if it works i shouldnt add DateTime.Now
