@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace GymMembership.DATA.Entities
 {
+
     [Table("Person")]
     public class Person
     {
