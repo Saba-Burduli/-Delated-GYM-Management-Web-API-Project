@@ -10,6 +10,7 @@ namespace GymMembership.DATA.Entities
 {
 
     [Table("MembershipType")]
+    
     public class MembershipType
     {
         [Key]
