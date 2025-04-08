@@ -12,8 +12,6 @@ namespace GymMembership.DATA.Entities
     [Table("User")]
     public class User
     {
-
-
         [Key]
         public int UserId { get; set; }
 
