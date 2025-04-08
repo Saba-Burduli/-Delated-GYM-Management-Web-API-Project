@@ -9,7 +9,6 @@ namespace GymMembership.DATA.Entities
 {
     public class GymClass
     {
-
         [Key]
         public int GymClassId { get; set; }
         [Required]
