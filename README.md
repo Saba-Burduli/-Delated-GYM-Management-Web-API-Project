@@ -22,6 +22,7 @@ Secured is mostly:
   
 </ul>
 
+
 We gonna add and create in IRepository Folder.Because If non ethical hacker trying to crack your program and functionality its easy to get in Service layer(Business Layer in API). So its Common Way to Implement this important mathods in Repository's Folder(In API Layer)
 
 <br>
@@ -37,6 +38,7 @@ We gonna add and create in IRepository Folder.Because If non ethical hacker tryi
   <li>DATA Layer</li>
   
 </ul>
+
 
 <br>
 
@@ -71,6 +73,7 @@ We gonna add and create in IRepository Folder.Because If non ethical hacker tryi
   <h3> <li> 🔗 Data Layer</li> </h3>
     <p>The Data Layer consists of models and database configurations, ensuring proper database mapping. 
   </p>
+
   
 </ol>
 
@@ -149,9 +152,10 @@ Note: User – Person has one to one relationship
     ▪ MembershipTypeName: string (monthly, yearly, VIP)
 
 <h1>Repositories</h1>
+<p>We have to determate independetly</p>
 <h1>Services</h1>
 
-      
+Creator Comic Solvency
 For more Info Contact Me on My Mail : sabagg790@gmail.com
 
 

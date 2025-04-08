@@ -14,7 +14,7 @@ namespace GymMembership.DATA.Entities
     {
         [Key]
         public int MembershipId { get; set; }
-
+        
         [Required]
         public DateTime StartDate { get; set; } = DateTime.UtcNow; //we gonna test it now .. if it works i shouldnt add DateTime.Now
         
