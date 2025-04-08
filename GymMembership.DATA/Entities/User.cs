@@ -33,6 +33,5 @@ namespace GymMembership.DATA.Entities
         [ForeignKey("Person")]
         public int PersonId { get; set; }
 
-
     }
 }
