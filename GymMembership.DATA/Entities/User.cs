@@ -27,7 +27,6 @@ namespace GymMembership.DATA.Entities
         
         public DateTime RegistrationDate { get; set; } = DateTime.Now;
 
-        
         //Relations:
         //User =>Person ; one to one ; (user) => (person)
         [ForeignKey("Person")]
