@@ -1,6 +1,6 @@
 <h1> 💪 GYM Membership Web API</h1>
 
-using in ASP.NET Core Entity Framework (ORM) is most Popular and correct Practice for our Backend Projects.In This Project I'm gonna create HTTP Controllers for API ofc. Also I'm gonna Use Some Security standarts Like General Data Protection Regulation (GDPR) And Also I'm gonna use Data Protection for our future Users.
+uing in ASP.NET Core Entity Framework (ORM) is most Popular and correct Practice for our Backend Projects.In This Project I'm gonna create HTTP Controllers for API ofc. Also I'm gonna Use Some Security standarts Like General Data Protection Regulation (GDPR) And Also I'm gonna use Data Protection for our future Users.
 
 For Security Main most Important Thing in Code is to create Repository and Service Interfaces. Most Important methods for 
 Secured is mostly:
