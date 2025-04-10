@@ -1,8 +1,8 @@
 <h1> 💪 GYM Membership Web API</h1>
 
-Using in ASP.NET Core Entity Framework (ORM) is most Popular and correct Practice for our Backend Projects.In This Project I'm gonna create HTTP Controllers for API ofc. Also I'm gonna Use Some Security standarts Like General Data Protection Regulation (GDPR) And Also I'm gonna use Data Protection for our future Users.
+Using in ASP.NET Core Entity Framework (ORM) is most Popular and correct Practice for our Backend Projects.In This Project I'm gonna create HTTP Controllers for API ofc. Also I'm gonna Use Some Security standart's Like General Data Protection Regulation (GDPR) And Also I'm gonna use Data Protection for our future Users.
 
-For Security Main most Important Thing in Code is to create Repository and Service Interfaces. Most Important methods for 
+For Security Main most Important Thing in Code is to Create Repository and Service Interfaces. Most Important methods for 
 Secured is mostly:
 
 ![image](https://github.com/user-attachments/assets/546c5518-5fa9-4574-9895-ecf53d62571a)
@@ -42,6 +42,7 @@ We gonna add and create in IRepository Folder.Because If non ethical hacker tryi
 
 <br>
 
+
 <h2>⬜ And Dive deeper in this Layers :</h2>
 
 <ol>
@@ -78,6 +79,7 @@ We gonna add and create in IRepository Folder.Because If non ethical hacker tryi
 </ol>
 
 <br>
+
 
 <h3>Layer System is Most Important Part in ASP.NET. Because Building APIs is Not just playing .
   <br>
@@ -154,6 +156,7 @@ Note: User – Person has one to one relationship
 <h1>Repositories</h1>
 <p>We have to determate independetly</p>
 <h1>Services</h1>
+
 
 Creator Comic Solvency
 For more Info Contact Me on My Mail : sabagg790@gmail.com

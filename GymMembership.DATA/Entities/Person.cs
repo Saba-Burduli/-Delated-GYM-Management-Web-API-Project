@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace GymMembership.DATA.Entities
 {
+
     [Table("Person")]
     public class Person
     {
@@ -30,5 +31,6 @@ namespace GymMembership.DATA.Entities
         [Required]
         [MaxLength(50,ErrorMessage ="address is more than 50 letter")]
         public string? Address { get; set; }
+        
     }
 }

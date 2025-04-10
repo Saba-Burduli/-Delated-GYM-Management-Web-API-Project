@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace GymMembership.DATA.Entities
 {
+
     [Table("MembershipType")]
     public class MembershipType
     {
@@ -15,6 +16,7 @@ namespace GymMembership.DATA.Entities
         public int MembershipTypeId { get; set; }
         [Required]
         public string? MembershipTypeName { get; set; } //Add seeding in there  (monthly, yearly, VIP)
+        
     }
     
 }

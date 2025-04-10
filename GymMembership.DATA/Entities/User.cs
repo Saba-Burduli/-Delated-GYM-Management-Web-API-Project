@@ -12,8 +12,6 @@ namespace GymMembership.DATA.Entities
     [Table("User")]
     public class User
     {
-
-
         [Key]
         public int UserId { get; set; }
 
@@ -29,12 +27,9 @@ namespace GymMembership.DATA.Entities
         
         public DateTime RegistrationDate { get; set; } = DateTime.Now;
 
-        
         //Relations:
         //User =>Person ; one to one ; (user) => (person)
         [ForeignKey("Person")]
         public int PersonId { get; set; }
-
-
     }
 }
