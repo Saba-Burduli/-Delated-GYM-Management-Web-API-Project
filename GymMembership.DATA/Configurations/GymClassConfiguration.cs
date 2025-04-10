@@ -9,6 +9,7 @@ namespace GymMembership.DATA.Configurations
     public class GymClassConfiguration
     {
 
+
         
         
     }
