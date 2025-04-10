@@ -10,5 +10,6 @@ namespace GymMembership.DATA.Configurations
     {
 
         
+        
     }
 }
