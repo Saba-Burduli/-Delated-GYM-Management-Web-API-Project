@@ -16,7 +16,8 @@ namespace GymMembership.DATA.Entities
         public int RoleId { get; set; }
         [Required]
         public string? RoleName { get; set; } //add seeding in there (Admin, Trainer, Member)
-
         //Relations:
+        
+        
     }
 }
