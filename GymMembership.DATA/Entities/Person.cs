@@ -30,6 +30,5 @@ namespace GymMembership.DATA.Entities
         [Required]
         [MaxLength(50,ErrorMessage ="address is more than 50 letter")]
         public string? Address { get; set; }
-        
     }
 }
