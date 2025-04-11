@@ -12,7 +12,6 @@ namespace GymMembership.DATA.Entities
 {
     public class Membership
     {
-        
         [Key]
         public int MembershipId { get; set; }
         
