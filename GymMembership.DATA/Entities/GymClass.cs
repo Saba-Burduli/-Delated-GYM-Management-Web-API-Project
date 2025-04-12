@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace GymMembership.DATA.Entities
 {
     public class GymClass
@@ -13,6 +12,6 @@ namespace GymMembership.DATA.Entities
         [Key]
         public int GymClassId { get; set; }
         [Required]
-        public string? GymClassName { get; set; } //Add seeding for GymClassName (wrestling, judo, karate, boxing)
+        public string? GymClassName { get; set; }  //Add seeding for GymClassName (wrestling, judo, karate, boxing)
     }
 }

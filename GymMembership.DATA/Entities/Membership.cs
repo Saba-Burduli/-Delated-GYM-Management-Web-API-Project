@@ -12,7 +12,6 @@ namespace GymMembership.DATA.Entities
 {
     public class Membership
     {
-        
         [Key]
         public int MembershipId { get; set; }
         
@@ -38,6 +37,5 @@ namespace GymMembership.DATA.Entities
         [ForeignKey("User")]
         public int UserId { get; set; }
         public virtual User? User { get; set; }
-        
     }
 }

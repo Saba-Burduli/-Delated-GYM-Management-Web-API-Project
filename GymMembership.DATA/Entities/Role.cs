@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace GymMembership.DATA.Entities
 {
-
     [Table("Role")]
     public class Role
     {
@@ -17,7 +16,7 @@ namespace GymMembership.DATA.Entities
 
         [Required]
         public string? RoleName { get; set; } //add seeding in there (Admin, Trainer, Member)
-
+        
         //Relations:
     }
 }
