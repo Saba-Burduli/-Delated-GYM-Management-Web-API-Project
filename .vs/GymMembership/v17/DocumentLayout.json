@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\configurations\\gymclassconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\configurations\\gymclassconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\membershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\membershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,38 +59,6 @@
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\configurations\\gymclassuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\configurations\\gymclassconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\configurations\\gymclassconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\membershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\membershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85624C5A-E20D-4B1A-A06B-5C12ADBB0729}|GymMembership\\GymMembership.API.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85624C5A-E20D-4B1A-A06B-5C12ADBB0729}|GymMembership\\GymMembership.API.csproj|solutionrelative:gymmembership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,13 +154,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "MembershipType.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\MembershipType.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\MembershipType.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\MembershipType.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Entities\\MembershipType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:39:32.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Membership.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Membership.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Membership.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Membership.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Entities\\Membership.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:39:12.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\User.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Entities\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:36:11.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\UserConfiguration.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\UserConfiguration.cs",
               "RelativeToolTip": "GymMembership.DATA\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T18:29:02.244Z",
               "EditorCaption": ""
@@ -168,71 +207,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RoleConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:28:38.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersonConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:28:19.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MembershipTypeConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipTypeConfiguration.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\MembershipTypeConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipTypeConfiguration.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Configurations\\MembershipTypeConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:27:53.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MembershipConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:27:19.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GymClassUserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\GymClassUserConfiguration.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\GymClassUserConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\GymClassUserConfiguration.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Configurations\\GymClassUserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:26:45.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "GymClassConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\GymClassConfiguration.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\GymClassConfiguration.cs",
@@ -245,31 +219,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MembershipType.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\MembershipType.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\MembershipType.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\MembershipType.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Entities\\MembershipType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABmAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Role.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:39:32.233Z"
+              "WhenOpened": "2025-04-03T19:36:32.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "GymClassUsers.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\GymClassUsers.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:38:52.26Z"
+              "WhenOpened": "2025-04-03T19:38:52.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "GymClass.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClass.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\GymClass.cs",
@@ -277,56 +253,81 @@
               "RelativeToolTip": "GymMembership.DATA\\Entities\\GymClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:38:24.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Person.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Person.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Person.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Entities\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:36:49.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Role.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Role.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:36:32.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\User.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Entities\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:36:11.834Z",
+              "WhenOpened": "2025-04-03T19:38:24.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Membership.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Membership.cs",
-              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Membership.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Membership.cs",
-              "RelativeToolTip": "GymMembership.DATA\\Entities\\Membership.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBcAAAAIAAAAAAAAAA==",
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Person.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Person.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Entities\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:39:12.645Z"
+              "WhenOpened": "2025-04-03T19:36:49.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MembershipTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\MembershipTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipTypeConfiguration.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Configurations\\MembershipTypeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T18:27:53.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PersonConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T18:28:19.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T18:28:38.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MembershipConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T18:27:19.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GymClassUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\GymClassUserConfiguration.cs",
+              "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\GymClassUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\GymClassUserConfiguration.cs",
+              "RelativeToolTip": "GymMembership.DATA\\Configurations\\GymClassUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T18:26:45.465Z"
             },
             {
               "$type": "Document",

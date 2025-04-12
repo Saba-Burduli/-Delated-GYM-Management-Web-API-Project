@@ -27,9 +27,14 @@ namespace GymMembership.DATA.Entities
         
         public DateTime RegistrationDate { get; set; } = DateTime.Now;
 
+        //We have To Create RoleUser Class Using Configuration
+
         //Relations:
+
         //User =>Person ; one to one ; (user) => (person)
         [ForeignKey("Person")]
         public int PersonId { get; set; }
+
+        //We have To add more ICollection Relations..
     }
 }

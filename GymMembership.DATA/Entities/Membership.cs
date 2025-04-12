@@ -25,6 +25,9 @@ namespace GymMembership.DATA.Entities
         [Required]
         public bool IsActive { get; set; }
 
+        [Required]
+        public decimal Price { get; set; } //I add this field By Myself
+
         //Relations:
         //Membership => MembershipType ; one to one ; (Membership) => (MembershipType)
         [ForeignKey("MembershipType")]
