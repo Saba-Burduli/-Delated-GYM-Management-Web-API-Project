@@ -18,6 +18,7 @@ namespace GymMembership.DATA.Entities
         public string? RoleName { get; set; } //add seeding in there (Admin, Trainer, Member)
         
         //Relations:
+
         //We Have To Add some ICollection to Users
     }
 }

@@ -162,8 +162,7 @@
               "RelativeToolTip": "GymMembership.DATA\\Entities\\MembershipType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:39:32.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T19:39:32.233Z"
             },
             {
               "$type": "Document",
@@ -175,8 +174,7 @@
               "RelativeToolTip": "GymMembership.DATA\\Entities\\Membership.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAYwBwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:39:12.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T19:39:12.645Z"
             },
             {
               "$type": "Document",
@@ -188,8 +186,7 @@
               "RelativeToolTip": "GymMembership.DATA\\Entities\\User.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:36:11.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T19:36:11.834Z"
             },
             {
               "$type": "Document",
@@ -201,8 +198,7 @@
               "RelativeToolTip": "GymMembership.DATA\\Configurations\\UserConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:29:02.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T18:29:02.244Z"
             },
             {
               "$type": "Document",
@@ -214,8 +210,7 @@
               "RelativeToolTip": "GymMembership.DATA\\Configurations\\GymClassConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:26:19.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T18:26:19.841Z"
             },
             {
               "$type": "Document",
@@ -225,7 +220,7 @@
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Role.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Role.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T19:36:32.297Z",
               "EditorCaption": ""
@@ -240,8 +235,7 @@
               "RelativeToolTip": "GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:38:52.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T19:38:52.26Z"
             },
             {
               "$type": "Document",
@@ -253,8 +247,7 @@
               "RelativeToolTip": "GymMembership.DATA\\Entities\\GymClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:38:24.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T19:38:24.225Z"
             },
             {
               "$type": "Document",
@@ -266,8 +259,7 @@
               "RelativeToolTip": "GymMembership.DATA\\Entities\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:36:49.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T19:36:49.646Z"
             },
             {
               "$type": "Document",
