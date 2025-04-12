@@ -19,5 +19,6 @@ namespace GymMembership.DATA.Entities
         
         //Relations:
         //We Have To Add some ICollection to Users
+        
     }
 }
