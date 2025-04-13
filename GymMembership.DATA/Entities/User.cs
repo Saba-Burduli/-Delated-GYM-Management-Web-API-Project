@@ -34,7 +34,9 @@ namespace GymMembership.DATA.Entities
         //User =>Person ; one to one ; (user) => (person)
         [ForeignKey("Person")]
         public int PersonId { get; set; }
+        public virtual Person? Person { get; set; }
 
-        //We have To add more ICollection Relations..
+
+        //We have To add more ICollection Relation()..
     }
 }

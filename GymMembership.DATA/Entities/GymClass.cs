@@ -13,5 +13,7 @@ namespace GymMembership.DATA.Entities
         public int GymClassId { get; set; }
         [Required]
         public string? GymClassName { get; set; }  //Add seeding for GymClassName (wrestling, judo, karate, boxing)
+
+        //Relations
     }
 }
