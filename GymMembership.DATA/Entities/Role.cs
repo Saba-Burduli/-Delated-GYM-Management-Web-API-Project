@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
+
 namespace GymMembership.DATA.Entities
 {
     [Table("Role")]
