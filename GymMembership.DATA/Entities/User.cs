@@ -16,15 +16,15 @@ namespace GymMembership.DATA.Entities
         public int UserId { get; set; }
 
         [Required]
-        [MaxLength(30,ErrorMessage = "UserName is more than 30 letter")]
+        [MaxLength(30, ErrorMessage = "UserName is more than 30 letter")]
         public string? UserName { get; set; }
 
         [Required]
         public string? PasswordHash { get; set; }
-        
+
         [Required]
         public string? Email { get; set; }
-        
+
         public DateTime RegistrationDate { get; set; } = DateTime.Now;
 
         //We have To Create RoleUser Class Using Configuration
@@ -36,6 +36,11 @@ namespace GymMembership.DATA.Entities
         public int PersonId { get; set; }
         public virtual Person? Person { get; set; }
 
+        //User => Membership ; One to Many ; (User) => (Membership)
+        public virtual ICollection<Membership>? Memberships { get; set; }
+
+        //User => GymClassUsers ; One to Many ;(User) => (GymClassUsers)
+        public virtual ICollection<GymClassUsers>? GymClassUsers { get; set; }
 
         //We have To add more ICollection Relation()..
     }
