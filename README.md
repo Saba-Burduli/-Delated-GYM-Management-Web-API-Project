@@ -1,18 +1,8 @@
 <h1> 💪 GYM Membership Web API</h1>
 
 Using in ASP.NET Core Entity Framework (ORM) is most Popular and correct Practice for our Backend Projects.In This Project I'm gonna create HTTP Controllers for API ofc. Also I'm gonna Use Some Security standart's Like General Data Protection Regulation (GDPR) And Also I'm gonna use Data Protection for our future Users.
-
 For Security Main most Important Thing in Code is to Create Repository and Service Interfaces. Most Important methods for 
 Secured is mostly:
-
-![image](https://github.com/user-attachments/assets/546c5518-5fa9-4574-9895-ecf53d62571a)
-
-![image](https://github.com/user-attachments/assets/2a6b5350-8ca2-4a59-a39f-8aed9d4f166c)
-
-![image](https://github.com/user-attachments/assets/0bb8ca7a-70f0-46d9-83a2-7d1cbfae0833)
-
-![image](https://github.com/user-attachments/assets/963a685b-e5ba-4b55-8527-e0e6eae7eefa)
-
 
 <ul>
   
@@ -22,6 +12,9 @@ Secured is mostly:
   
 </ul>
 
+<h2>Here Is All Important Relations Between Entity Classes:</h2>
+
+![Untitled](https://github.com/user-attachments/assets/a5017627-0859-4473-b5b2-f39b122cd888)
 
 We gonna add and create in IRepository Folder.Because If non ethical hacker trying to crack your program and functionality its easy to get in Service layer(Business Layer in API). So its Common Way to Implement this important mathods in Repository's Folder(In API Layer)
 
@@ -156,8 +149,15 @@ Note: User – Person has one to one relationship
 <h1>Repositories</h1>
 <p>We have to determate independetly</p>
 <h1>Services</h1>
+<p>Now its Empty</p>
 
+<br>
+here You Can See Full Description About This Project:
+<br>
 
+[Udapted GYM Membership PDF By Saba Burduli.pdf](https://github.com/user-attachments/files/19727797/Udapted.GYM.Membership.PDF.By.Saba.Burduli.pdf)
+
+<br>
 Creator Comic Solvency
 For more Info Contact Me on My Mail : sabagg790@gmail.com
 
