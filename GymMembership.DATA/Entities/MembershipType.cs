@@ -17,6 +17,7 @@ namespace GymMembership.DATA.Entities
 
         [Required]
         public string? MembershipTypeName { get; set; } //Add seeding in there  (monthly, yearly, VIP)
+
         //Relations :
 
     }
