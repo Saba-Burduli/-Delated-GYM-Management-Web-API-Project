@@ -18,8 +18,6 @@ namespace GymMembership.DATA.Entities
         [Required]
         [MaxLength(30, ErrorMessage = "UserName is more than 30 letter")]
         public string? UserName { get; set; }
-
-        
         
         [Required]
         public string? PasswordHash { get; set; }
