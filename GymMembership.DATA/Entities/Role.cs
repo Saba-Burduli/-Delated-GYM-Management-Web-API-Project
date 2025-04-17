@@ -12,7 +12,6 @@ namespace GymMembership.DATA.Entities
     [Table("Role")]
     public class Role
     {
-        
         [Key]
         public int RoleId { get; set; }
 
