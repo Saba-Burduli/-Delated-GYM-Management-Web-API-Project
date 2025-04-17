@@ -41,6 +41,8 @@ namespace GymMembership.DATA.Entities
 
         //User => GymClassUsers ; One to Many ;(User) => (GymClassUsers)
         public virtual ICollection<GymClassUsers>? GymClassUsers { get; set; }
+        //User => Role
+        public virtual ICollection<Role>? Roles { get; set; }
 
         //We have To add more ICollection Relation()..
     }

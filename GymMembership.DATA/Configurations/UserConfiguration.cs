@@ -13,8 +13,18 @@ namespace GymMembership.DATA.Configurations
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            throw new NotImplementedException();
-            
+            builder.HasMany(u => u.Roles)
+                .WithMany(u => u.Users)
+                .UsingEntity<Dictionary<string, object>>(
+                    "RoleUser",
+                    left => left.HasOne<Role>()
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade),
+                    right => right.HasOne<User>()
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade));
         }
     }
 }
