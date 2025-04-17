@@ -20,6 +20,7 @@ namespace GymMembership.DATA.Entities
         public string? UserName { get; set; }
 
         
+        
         [Required]
         public string? PasswordHash { get; set; }
 
