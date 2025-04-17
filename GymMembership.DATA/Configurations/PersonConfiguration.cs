@@ -21,7 +21,6 @@ namespace GymMembership.DATA.Configurations
             builder.Property(p=>p.Address).IsRequired().HasMaxLength(50);
             builder.Property(p => p.Phone).IsRequired().HasMaxLength(20);
             
-
         }
     }
 }
