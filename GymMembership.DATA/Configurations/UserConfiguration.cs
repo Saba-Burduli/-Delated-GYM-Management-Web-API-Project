@@ -14,6 +14,7 @@ namespace GymMembership.DATA.Configurations
         public void Configure(EntityTypeBuilder<User> builder)
         {
             throw new NotImplementedException();
+            
         }
     }
 }
