@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 namespace GymMembership.DATA.Configurations
 {
     public class UserConfiguration : IEntityTypeConfiguration<User>
-    {
+    {                       //Fluent API Better 
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.HasMany(u => u.Roles)
