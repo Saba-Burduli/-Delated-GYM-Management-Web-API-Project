@@ -22,6 +22,5 @@ namespace GymMembership.DATA.Entities
         //MembershipType => Membership ; One to One ; (MembeshipType) => (Membeship) 
         public virtual Membership? Membership { get; set; } //I dont think so I need this 
 
-
     }
 }
