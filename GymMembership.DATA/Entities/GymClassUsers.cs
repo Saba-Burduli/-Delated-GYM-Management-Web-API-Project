@@ -12,7 +12,7 @@ namespace GymMembership.DATA.Entities
     public class GymClassUsers
     {
         [Key]
-        public int GymClassUsersId { get; set; }  //Id in Dachis Project
+        public int GymClassUsersId { get; set; } //Id in Dachis Project
 
         //Relations:
         
