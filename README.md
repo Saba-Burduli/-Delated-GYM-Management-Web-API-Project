@@ -85,7 +85,6 @@ We gonna add and create in IRepository Folder.Because If non ethical hacker tryi
           <p>The Data Layer consists of models and database configurations, ensuring proper database mapping. 
         </p>
 
-  
 </ol>
 
 <br>
