@@ -15,6 +15,7 @@ namespace GymMembership.DATA.Entities
         public int GymClassUsersId { get; set; } //Id in Dachis Project
 
         //Relations:
+        
         //GymClassUsers => GymClass ; many to one ; (GymClassUsers) => (GymClass)
         [ForeignKey("GymClass")]
         public int GymClassId { get; set; }
