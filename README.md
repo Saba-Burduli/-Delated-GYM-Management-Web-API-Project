@@ -75,8 +75,8 @@ We gonna add and create in IRepository Folder.Because If non ethical hacker tryi
         
       
         
-        <h3> <li> 🔗 DAL (Data Access Layer)</li></h3>
-          <p>The DAL handles direct interactions with the database, abstracting raw database operations.
+ <h3> <li> 🔗 DAL (Data Access Layer)</li></h3>
+      <p>The DAL handles direct interactions with the database, abstracting raw database operations.
         </p>
       
       
