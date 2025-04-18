@@ -28,6 +28,7 @@ namespace GymMembership.DATA.Entities
         public decimal Price { get; set; } //I add this field By Myself
 
         //Relations:
+        
         //Membership => MembershipType ; one to one ; (Membership) => (MembershipType)
         [ForeignKey("MembershipType")]
         public int MembershipTypeId { get; set; }
