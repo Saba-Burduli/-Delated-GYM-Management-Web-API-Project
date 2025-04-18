@@ -1,6 +1,4 @@
 
-
-
 <h1> 💪 GYM Membership Web API</h1>
 
 
