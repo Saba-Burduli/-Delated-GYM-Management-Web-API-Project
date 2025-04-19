@@ -14,7 +14,7 @@ namespace GymMembership.DATA.Entities
     {
         [Key]
         public int PersonId { get; set; }
-
+        
         [Required]
         [MaxLength(20, ErrorMessage = "FistName is more than 20 letter")]
         public string? FirstName { get; set; }

@@ -14,9 +14,8 @@ namespace GymMembership.DATA.Entities
         [Key]
         public int GymClassUsersId { get; set; } //Id in Dachis Project
 
-
         //Relations:
-
+        
         //GymClassUsers => GymClass ; many to one ; (GymClassUsers) => (GymClass)
         [ForeignKey("GymClass")]
         public int GymClassId { get; set; }
@@ -26,5 +25,6 @@ namespace GymMembership.DATA.Entities
         [ForeignKey("User")]
         public int UserId { get; set; }
         public virtual User? User { get; set; } // we gonna change this (Saba Check PDF)
+        
     }
 }
