@@ -16,7 +16,6 @@ Secured is mostly:
 
 
 
-
 <h2>Here Is All Important Relations Between Entity Classes:</h2>
 
 
