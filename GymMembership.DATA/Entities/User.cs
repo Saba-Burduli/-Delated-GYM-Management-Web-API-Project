@@ -44,7 +44,6 @@ namespace GymMembership.DATA.Entities
         //User => Role
         public virtual ICollection<Role>? Roles { get; set; }
 
-        //We have To add more ICollection Relation()..
-        
+        //We have To add more ICollection Relation().. 
     }
 }
