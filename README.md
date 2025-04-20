@@ -80,7 +80,6 @@ There is many different things to do like :</h3>
   <li>SQL Injection</li>
 </ol>
 
-
 <br>
 
 <h2>Gym Membership Models(Enitity Clasess):</h2>
