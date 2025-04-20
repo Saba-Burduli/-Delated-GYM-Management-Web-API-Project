@@ -52,7 +52,6 @@ We gonna add and create in IRepository Folder.Because If non ethical hacker tryi
     - **Response Formatting**: Returns data in JSON or XML format for easy consumption.
     </p>
 
-          
    <h3> <li> 🔗 Service Layer</li></h3>
         <p> The Service Layer acts as an intermediary between the API layer and the data access layer (DAL).
         It contains business logic and ensures a clean separation of concerns.
