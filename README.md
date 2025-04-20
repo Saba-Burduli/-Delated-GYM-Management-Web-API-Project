@@ -99,7 +99,6 @@ There is many different things to do like :</h3>
      ▪ RoleId: int
      ▪ RoleName: string (Admin, Trainer, Member)
 
-  
   <h3>Person</h3>
 
     ▪ PersonId: int
