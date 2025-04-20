@@ -28,3 +28,4 @@ namespace GymMembership.DATA.Configurations
         }
     }
 }
+        
