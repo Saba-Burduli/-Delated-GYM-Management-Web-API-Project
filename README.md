@@ -93,7 +93,6 @@ There is many different things to do like :</h3>
     ▪ RegistrationDate: datetime
     ▪ PersonId: int
 
-
   <br>
   <h3>RoleUser (It shoud be created using configuration)></h3>
   
