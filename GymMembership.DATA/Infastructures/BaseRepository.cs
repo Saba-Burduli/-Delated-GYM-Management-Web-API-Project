@@ -13,6 +13,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         throw new NotImplementedException();
     }
 
+    
     public Task AddAsync(T entity)
     {
         throw new NotImplementedException();
