@@ -24,6 +24,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         throw new NotImplementedException();
     }
+    
 
     public Task DeleteAsync(int id)
     {
