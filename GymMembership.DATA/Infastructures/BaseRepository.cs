@@ -6,6 +6,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         throw new NotImplementedException();
     }
+    
 
     public Task<T> GetByIDAsync(int id)
     {
