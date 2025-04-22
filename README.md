@@ -13,7 +13,6 @@ Secured is mostly:
   
 </ul>
 
-
 <h2>Here Is All Important Relations Between Entity Classes:</h2>
 
 ![Untitled](https://github.com/user-attachments/assets/a5017627-0859-4473-b5b2-f39b122cd888)
