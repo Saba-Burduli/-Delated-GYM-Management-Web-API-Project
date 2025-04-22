@@ -37,3 +37,4 @@ namespace GymMembership.DATA.Entities
         public virtual User? User { get; set; }
     }
 }
+
