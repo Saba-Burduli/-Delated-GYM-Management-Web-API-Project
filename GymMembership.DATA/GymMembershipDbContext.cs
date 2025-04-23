@@ -84,17 +84,38 @@ public class GymMembershipDbContext : DbContext
                 new MembershipType
                 {
                     MembershipTypeId = 1,
-                    MembershipTypeName = "Monthly",
+                    MembershipTypeName = "Monthly"
                 },
                 new MembershipType
                 {
                     MembershipTypeId = 2,
-                    MembershipTypeName = "Yearly",
+                    MembershipTypeName = "Yearly"
                 },
                 new MembershipType
                 {
                     MembershipTypeId = 3,
-                    MembershipTypeName = "VIP",
+                    MembershipTypeName = "VIP"
                 });
+        
+        //Person Seeding
+        modelBuilder.Entity<Person>().HasData(
+            new Person
+            {
+                PersonId = 1,
+                FirstName = "Saba",
+                LastName = "Burduli",
+                Phone ="599553263",
+                Address = "StBarbare Tbilisi,Georgia"
+            },
+            new Person
+            {
+                PersonId = 2,
+                FirstName = "Lali",
+                LastName = "Razmadze",
+                Phone ="595753264",
+                Address = "Racha,Ambrolauri st 183"
+            }
+            );
+        
     }
 }
