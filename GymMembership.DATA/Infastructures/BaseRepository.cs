@@ -3,7 +3,7 @@ namespace GymMembership.DATA.Infastructures;
 public class BaseRepository<T> : IBaseRepository<T> where T : class
 {
     public Task<IEnumerable<T>> GetAllAsync()
-    {
+    { 
         throw new NotImplementedException();
     }
 
