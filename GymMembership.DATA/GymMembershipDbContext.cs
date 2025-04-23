@@ -37,7 +37,8 @@ public class GymMembershipDbContext : DbContext
         modelBuilder.ApplyConfiguration(new PersonConfiguration());
         modelBuilder.ApplyConfiguration(new RoleConfiguration());
         modelBuilder.ApplyConfiguration(new UserConfiguration());
-        
+
+        //Role Seeding
         modelBuilder.Entity<Role>().HasData(
             new Role
             {
@@ -53,8 +54,9 @@ public class GymMembershipDbContext : DbContext
             {
                 RoleId = 3,
                 RoleName = "Trainer"
-            }
+            });
 
+        //GymClass Seeding
         modelBuilder.Entity<GymClass>().HasData(
             new GymClass
             {
@@ -77,6 +79,7 @@ public class GymMembershipDbContext : DbContext
                 GymClassName = "Boxing"
             });
         
+        //MembershipType Seeding
         modelBuilder.Entity<MembershipType>().HasData(
                 new MembershipType
                 {
@@ -92,12 +95,11 @@ public class GymMembershipDbContext : DbContext
                 {
                     MembershipTypeId = 3,
                     MembershipTypeName = "VIP",
-                }
-                )
+                });
             
             //I also need gym Class Seeding 
             //I also need PaymentType Seeding
                 
-        );
+        
     }
 }
