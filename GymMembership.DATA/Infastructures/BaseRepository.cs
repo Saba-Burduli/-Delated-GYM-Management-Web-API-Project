@@ -21,7 +21,6 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         return await _dbSet.ToListAsync();
     }
     
-
     public Task<T> GetByIDAsync(int id)
     {
         throw new NotImplementedException();
