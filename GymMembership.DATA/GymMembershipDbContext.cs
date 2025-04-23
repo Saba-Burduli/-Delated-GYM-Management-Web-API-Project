@@ -96,10 +96,5 @@ public class GymMembershipDbContext : DbContext
                     MembershipTypeId = 3,
                     MembershipTypeName = "VIP",
                 });
-            
-            //I also need gym Class Seeding 
-            //I also need PaymentType Seeding
-                
-        
     }
 }
