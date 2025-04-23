@@ -54,30 +54,46 @@ public class GymMembershipDbContext : DbContext
                 RoleId = 3,
                 RoleName = "Trainer"
             }
-            
-            modelBuilder.Entity<GymClass>().HasData(
-                    new GymClass
-                    {
-                        GymClassId = 1,
-                        GymClassName = "Wrestling",
-                    },
-                    new GymClass
-                    {
-                        GymClassId = 2,
-                        GymClassName = "Judo",
-                    },
-                    new GymClass
-                    {
-                        GymClassId = 3,
-                        GymClassName = "Karate",
-                    },
-                    new GymClass
-                    {
-                        GymClassId = 4,
-                        GymClassName = "Boxing"
-                    }
-                    
-                    )
+
+        modelBuilder.Entity<GymClass>().HasData(
+            new GymClass
+            {
+                GymClassId = 1,
+                GymClassName = "Wrestling",
+            },
+            new GymClass
+            {
+                GymClassId = 2,
+                GymClassName = "Judo",
+            },
+            new GymClass
+            {
+                GymClassId = 3,
+                GymClassName = "Karate",
+            },
+            new GymClass
+            {
+                GymClassId = 4,
+                GymClassName = "Boxing"
+            });
+        
+        modelBuilder.Entity<MembershipType>().HasData(
+                new MembershipType
+                {
+                    MembershipTypeId = 1,
+                    MembershipTypeName = "Monthly",
+                },
+                new MembershipType
+                {
+                    MembershipTypeId = 2,
+                    MembershipTypeName = "Yearly",
+                },
+                new MembershipType
+                {
+                    MembershipTypeId = 3,
+                    MembershipTypeName = "VIP",
+                }
+                )
             
             //I also need gym Class Seeding 
             //I also need PaymentType Seeding
