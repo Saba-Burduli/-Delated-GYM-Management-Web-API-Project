@@ -1,10 +1,24 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace GymMembership.DATA.Infastructures;
 
 public class BaseRepository<T> : IBaseRepository<T> where T : class
 {
-    public Task<IEnumerable<T>> GetAllAsync()
-    { 
-        throw new NotImplementedException();
+    private readonly GymMembershipDbContext _context;
+    private readonly DbSet<T> _dbSet;
+
+    public BaseRepository(GymMembershipDbContext context)
+    {
+        _context = context ?? throw new ArgumentNullException(nameof(_context));
+        _dbSet = context.Set<T>() ?? throw new ArgumentNullException($"The context {nameof(context)} is null");
+    }
+    public async Task<IEnumerable<T>> GetAllAsync()
+    {
+        if (_context == null || _dbSet == null)
+        {
+            throw new InvalidOperationException("Database context is not initilized");
+        }
+        return await _dbSet.ToListAsync();
     }
     
 
