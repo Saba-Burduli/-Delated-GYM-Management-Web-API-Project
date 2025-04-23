@@ -6,7 +6,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
 {
     private readonly GymMembershipDbContext _context;
     private readonly DbSet<T> _dbSet;
-    
+
     
     public BaseRepository(GymMembershipDbContext context)
     {
