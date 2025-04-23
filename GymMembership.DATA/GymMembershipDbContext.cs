@@ -55,6 +55,29 @@ public class GymMembershipDbContext : DbContext
                 RoleName = "Trainer"
             }
             
+            modelBuilder.Entity<GymClass>().HasData(
+                    new GymClass
+                    {
+                        GymClassId = 1,
+                        GymClassName = "Wrestling",
+                    },
+                    new GymClass
+                    {
+                        GymClassId = 2,
+                        GymClassName = "Judo",
+                    },
+                    new GymClass
+                    {
+                        GymClassId = 3,
+                        GymClassName = "Karate",
+                    },
+                    new GymClass
+                    {
+                        GymClassId = 4,
+                        GymClassName = "Boxing"
+                    }
+                    
+                    )
             
             //I also need gym Class Seeding 
             //I also need PaymentType Seeding
