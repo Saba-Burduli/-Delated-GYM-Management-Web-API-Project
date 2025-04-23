@@ -15,7 +15,6 @@ namespace GymMembership.DATA.Configurations
         {
             builder.HasOne(p => p.User)
                 .WithOne(u => u.Person);
-            
             builder.Property(p=>p.FirstName).IsRequired().HasMaxLength(20);
             builder.Property(p=>p.LastName).IsRequired().HasMaxLength(30);   
             builder.Property(p=>p.Address).IsRequired().HasMaxLength(50);
