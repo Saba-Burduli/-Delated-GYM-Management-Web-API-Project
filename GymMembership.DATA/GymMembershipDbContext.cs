@@ -1,3 +1,4 @@
+using GymMembership.DATA.Configurations;
 using GymMembership.DATA.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,4 +13,52 @@ public class GymMembershipDbContext : DbContext
     public DbSet<Person> Persons { get; set; }
     public DbSet<Role> Roles { get; set; }
     public DbSet<User>Users { get; set; }
+
+    public GymMembershipDbContext()
+    {
+        
+    }
+
+    public GymMembershipDbContext(DbContextOptions<GymMembershipDbContext> context) : base(context)
+    {
+        
+    }
+
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    {
+        optionsBuilder.UseSqlServer();
+    }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+        modelBuilder.ApplyConfiguration(new GymClassConfiguration());
+        modelBuilder.ApplyConfiguration(new MembershipConfiguration());
+        modelBuilder.ApplyConfiguration(new PersonConfiguration());
+        modelBuilder.ApplyConfiguration(new RoleConfiguration());
+        modelBuilder.ApplyConfiguration(new UserConfiguration());
+        
+        modelBuilder.Entity<Role>().HasData(
+            new Role
+            {
+                RoleId = 1,
+                RoleName = "Admin",
+            },
+            new Role
+            {
+                RoleId = 2,
+                RoleName = "Member",
+            },
+            new Role
+            {
+                RoleId = 3,
+                RoleName = "Trainer"
+            }
+            
+            
+            //I also need gym Class Seeding 
+            //I also need PaymentType Seeding
+                
+        );
+    }
 }
