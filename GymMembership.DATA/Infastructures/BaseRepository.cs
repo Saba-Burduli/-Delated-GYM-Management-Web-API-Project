@@ -8,6 +8,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
     private readonly DbSet<T> _dbSet;
     
 
+    
     public BaseRepository(GymMembershipDbContext context)
     {
         _context = context ?? throw new ArgumentNullException(nameof(_context));
