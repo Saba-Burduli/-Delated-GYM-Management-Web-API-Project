@@ -25,7 +25,7 @@ namespace GymMembership.DATA.Entities
         public bool IsActive { get; set; }
 
         [Required]
-        public decimal Price { get; set; } //I add this field By Myself
+        public decimal Price { get; set; }  //I add this field By Myself
 
         //Relations:
         
