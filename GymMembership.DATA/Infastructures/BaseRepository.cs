@@ -62,7 +62,6 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         return _context.SaveChangesAsync();
     }
     
-
     public async Task DeleteAsync(int id)
     {
         if (_context == null || _dbSet == null)
