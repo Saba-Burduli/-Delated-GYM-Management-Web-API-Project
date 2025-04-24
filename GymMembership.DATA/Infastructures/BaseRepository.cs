@@ -21,15 +21,29 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         return await _dbSet.ToListAsync();
     }
     
-    public Task<T> GetByIDAsync(int id)
+    public async Task<T> GetByIDAsync(int id)
     {
-        throw new NotImplementedException();
+        if (_context == null || _dbSet == null)
+        {
+            throw new InvalidOperationException("Database context is not initilized");
+        }
+        return await _dbSet.FindAsync(id);
     }
 
     
-    public Task AddAsync(T entity)
+    public async Task AddAsync(T entity)
     {
-        throw new NotImplementedException();
+        if (entity == null)
+        {
+            throw new ArgumentNullException($"{nameof(entity)} is null");
+        }
+
+        if (_context == null || _dbSet == null)
+        {
+            throw new InvalidOperationException("Database context is not initilized");
+        }
+         await _dbSet.AddAsync(entity);
+         await _context.SaveChangesAsync();//this is for save changes and paste it in _context class
     }
 
     
