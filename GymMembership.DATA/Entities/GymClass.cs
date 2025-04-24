@@ -17,7 +17,6 @@ namespace GymMembership.DATA.Entities
 
         //Relations :
         //GymClass => GymClassUsers ; One to Many ; (GymClass) => (GymClassUsers)
-        public virtual ICollection<GymClassUsers>? GymClassUsers { get; set; }
-        
+        public virtual ICollection<GymClassUsers>? GymClassUsers { get; set; }   
     }
 }
