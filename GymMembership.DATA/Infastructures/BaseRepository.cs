@@ -12,7 +12,6 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         _context = context ?? throw new ArgumentNullException(nameof(_context));
         _dbSet = context.Set<T>() ?? throw new ArgumentNullException($"The context {nameof(context)} is null");
     }
-    
     public async Task<IEnumerable<T>> GetAllAsync()
     {
         if (_context == null || _dbSet == null)
@@ -50,13 +49,28 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
     
     public Task UpdateAsync(T entity)
     {
-        throw new NotImplementedException();
+        if (entity == null)
+        {
+            throw new NotImplementedException($"type {typeof(T).Name} is not implemented");
+        }
+
+        if (_context == null || _dbSet == null)
+        {
+            throw new InvalidOperationException("Database context is not initilized");
+        }
+        _dbSet.Update(entity);
+        return _context.SaveChangesAsync();
     }
     
 
-    public Task DeleteAsync(int id)
+    public async Task DeleteAsync(int id)
     {
-        throw new NotImplementedException();
+        if (_context == null || _dbSet == null)
+            throw new InvalidOperationException("database context is not initilized");
+        
+        var user = await _context.Users.FindAsync(id);
+        _context.Remove(user);
+        await _context.SaveChangesAsync();
     }
     
 }
