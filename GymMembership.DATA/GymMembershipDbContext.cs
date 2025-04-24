@@ -116,6 +116,7 @@ public class GymMembershipDbContext : DbContext
                 Address = "Racha,Ambrolauri st 183"
             }
             );
+        //I HAVE TO ADD ADMIN SEEDING FOR ADMIN PANEL NEXT 
         
     }
 }
