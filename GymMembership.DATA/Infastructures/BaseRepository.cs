@@ -71,5 +71,4 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         _context.Remove(user);
         await _context.SaveChangesAsync();
     }
-    
 }
