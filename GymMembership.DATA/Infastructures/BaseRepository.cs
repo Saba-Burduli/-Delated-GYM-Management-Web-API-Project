@@ -47,6 +47,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
          await _context.SaveChangesAsync();//this is for save changes and paste it in _context class
     }
 
+
     
     public Task UpdateAsync(T entity)
     {
