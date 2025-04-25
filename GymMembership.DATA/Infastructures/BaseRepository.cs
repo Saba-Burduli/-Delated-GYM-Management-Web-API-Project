@@ -12,6 +12,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         _context = context ?? throw new ArgumentNullException(nameof(_context));
         _dbSet = context.Set<T>() ?? throw new ArgumentNullException($"The context {nameof(context)} is null");
     }
+
     
     public async Task<IEnumerable<T>> GetAllAsync()
     {
