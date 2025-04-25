@@ -34,6 +34,7 @@ namespace GymMembership.DATA.Entities
         public int MembershipTypeId { get; set; }
         public virtual MembershipType? MembershipType { get; set; }
 
+        
         //Membership => User ; one to one ; (Membership) => (User)
         [ForeignKey("User")]
         public int UserId { get; set; }
