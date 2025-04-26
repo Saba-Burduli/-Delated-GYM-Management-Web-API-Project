@@ -1,31 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\.NET Web API's\\GymMembership\\GymMembership\\GymMembership.API.csproj": {}
+    "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership/GymMembership.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\.NET Web API's\\GymMembership\\GymMembership\\GymMembership.API.csproj": {
+    "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership/GymMembership.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\.NET Web API's\\GymMembership\\GymMembership\\GymMembership.API.csproj",
+        "projectUniqueName": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership/GymMembership.API.csproj",
         "projectName": "GymMembership.API",
-        "projectPath": "C:\\Users\\User\\Desktop\\.NET Web API's\\GymMembership\\GymMembership\\GymMembership.API.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\.NET Web API's\\GymMembership\\GymMembership\\obj\\",
+        "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership/GymMembership.API.csproj",
+        "packagesPath": "/Users/gstore/.nuget/packages/",
+        "outputPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/gstore/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +37,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -94,6 +89,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -102,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
