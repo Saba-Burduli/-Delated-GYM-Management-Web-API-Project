@@ -9,7 +9,6 @@ public class UserModel
     public string? PasswordHash { get; set; }
     
     public string? Email { get; set; }
-
+    
     public DateTime RegistrationDate { get; set; } = DateTime.Now;
-
 }
