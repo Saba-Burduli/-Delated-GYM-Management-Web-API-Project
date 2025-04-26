@@ -12,6 +12,9 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         _context = context ?? throw new ArgumentNullException(nameof(_context));
         _dbSet = context.Set<T>() ?? throw new ArgumentNullException($"The context {nameof(context)} is null");
     }
+
+    
+    
     public async Task<IEnumerable<T>> GetAllAsync()
     {
         if (_context == null || _dbSet == null)
@@ -46,6 +49,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
          await _context.SaveChangesAsync();//this is for save changes and paste it in _context class
     }
 
+
     
     public Task UpdateAsync(T entity)
     {
@@ -62,6 +66,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         return _context.SaveChangesAsync();
     }
     
+    
     public async Task DeleteAsync(int id)
     {
         if (_context == null || _dbSet == null)
@@ -71,4 +76,5 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
         _context.Remove(user);
         await _context.SaveChangesAsync();
     }
+    
 }
