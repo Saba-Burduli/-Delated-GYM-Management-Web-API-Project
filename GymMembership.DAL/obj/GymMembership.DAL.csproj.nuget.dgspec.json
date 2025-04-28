@@ -26,6 +26,201 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj": {
+                "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj"
+              },
+              "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj": {
+                "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj",
+        "projectName": "GymMembership.DATA",
+        "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj",
+        "packagesPath": "/Users/gstore/.nuget/packages/",
+        "outputPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gstore/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj": {
+                "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj",
+        "projectName": "GymMembership.SERVICE",
+        "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj",
+        "packagesPath": "/Users/gstore/.nuget/packages/",
+        "outputPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gstore/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
