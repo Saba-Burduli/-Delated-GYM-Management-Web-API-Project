@@ -27,6 +27,7 @@ public class IUserRepository : IBaseRepository<User>
     {
         throw new NotImplementedException();
     }
+    
 
     public Task DeleteAsync(int id)
     {
