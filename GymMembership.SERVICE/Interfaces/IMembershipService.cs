@@ -2,6 +2,9 @@ namespace GymMembership.SERVICE.Interfaces;
 
 public interface IMembershipService
 {
-    //We have to Declarate some methods in there
-    //methods are in pdf
+    Membership CreateMembership (Membership membership);
+    Task<bool> RenewMembership(int membershipld);
+    Task<MembershipStatus> GetMembershipStatusAsync(int customerId);
+    Task<List<Membership>> GetMembershipsByUser(int userld);
+    Task<List<Membership>> GetAllMembershipsByStatuses;
 }
