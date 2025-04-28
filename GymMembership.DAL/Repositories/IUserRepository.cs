@@ -10,7 +10,6 @@ public class IUserRepository : IBaseRepository<User>
         throw new NotImplementedException();
     }
     
-
     public Task<User> GetByIDAsync(int id)
     {
         throw new NotImplementedException();
