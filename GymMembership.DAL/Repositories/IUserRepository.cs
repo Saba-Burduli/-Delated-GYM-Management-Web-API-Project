@@ -15,7 +15,6 @@ public class IUserRepository : IBaseRepository<User>
         throw new NotImplementedException();
     }
     
-
     public Task AddAsync(User entity)
     {
         throw new NotImplementedException();
