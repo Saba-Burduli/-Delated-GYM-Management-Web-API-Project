@@ -9,12 +9,12 @@ public class IUserRepository : IBaseRepository<User>
     {
         throw new NotImplementedException();
     }
-
+    
     public Task<User> GetByIDAsync(int id)
     {
         throw new NotImplementedException();
     }
-
+    
     public Task AddAsync(User entity)
     {
         throw new NotImplementedException();
@@ -24,7 +24,7 @@ public class IUserRepository : IBaseRepository<User>
     {
         throw new NotImplementedException();
     }
-
+    
     public Task DeleteAsync(int id)
     {
         throw new NotImplementedException();
