@@ -8,6 +8,6 @@ public interface IUserRepository : IBaseRepository<User>
 {
     Task<UserModel>GetUserByEmail(string email);
         
-        //We have to Add more methods in there
+        //We have to Add
         //Check Project Description
 }
