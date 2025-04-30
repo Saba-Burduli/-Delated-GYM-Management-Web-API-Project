@@ -14,4 +14,5 @@ public interface IUserRepository : IBaseRepository<User>
     Task<AuthResponseModel> GetAllMembersAsync();
     Task<AuthResponseModel> GetAllTrainersAsync();
     //maybe we gonna add more methods inside this repisitory file
+    // like : GetUserProfileAsync() (optional) ,UpdateUserProfileAsync() (optional), DelateUserProfileAsync() (optional)
 }
