@@ -17,7 +17,6 @@ namespace GymMembership.DATA.Configurations
                 .WithOne(g => g.GymClass);       
 
 
-                
         }
     }
 }
