@@ -69,7 +69,7 @@ We gonna add and create in IRepository Folder.Because If non ethical hacker tryi
 
 <br>
 
-<h3>Layer System is Most Important Part in ASP.NET. Because Building APIs is Not just playing .
+<h3>Layer System is Most Important Part in ASP.NET. Because Building APIs is Not just playing 
   <br>
 There is many different things to do like :</h3>
 
@@ -151,13 +151,8 @@ here You Can See Full Description About This Project:
 
 [Udapted GYM Membership PDF By Saba Burduli.pdf](https://github.com/user-attachments/files/19727797/Udapted.GYM.Membership.PDF.By.Saba.Burduli.pdf)
 
-
-
 <br>
 
 Creator Comic Solvency
 
 For more Info Contact Me on My Mail : sabagg790@gmail.com
-
-
-

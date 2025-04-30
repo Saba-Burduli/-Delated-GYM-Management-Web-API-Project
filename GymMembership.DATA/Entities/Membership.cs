@@ -25,7 +25,7 @@ namespace GymMembership.DATA.Entities
         public bool IsActive { get; set; }
 
         [Required]
-        public decimal Price { get; set; } //I add this field By Myself
+        public decimal Price { get; set; }  //I add this field By Myself
 
         //Relations:
         
@@ -34,6 +34,7 @@ namespace GymMembership.DATA.Entities
         public int MembershipTypeId { get; set; }
         public virtual MembershipType? MembershipType { get; set; }
 
+        
         //Membership => User ; one to one ; (Membership) => (User)
         [ForeignKey("User")]
         public int UserId { get; set; }

@@ -12,16 +12,12 @@ namespace GymMembership.DATA.Entities
     public class MembershipType
     {
         [Key]
-
         public int MembershipTypeId { get; set; }//Id in Dachi Project
         [Required]
         public string? MembershipTypeName { get; set; } //Add seeding in there  (monthly, yearly, VIP)
 
         //Relations :
         //MembershipType => Membership ; One to One ; (MembeshipType) => (Membeship) 
-        public virtual Membership? Membership { get; set; } 
-        //I dont think so I need this
-        
-
+        public virtual Membership? Membership { get; set; } //I dont think so I need this 
     }
 }
