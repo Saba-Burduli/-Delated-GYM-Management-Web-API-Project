@@ -40,7 +40,11 @@ public class UserRepository : BaseRepository<User>, IUserRepository
 
     public Task<AuthResponseModel> GetAllUserByEmailAsync(string email)
     {
-        throw new NotImplementedException();
+        if (_context == null || _context.Users ==null)
+        {
+            throw new ArgumentNullException("Bridge between DataBase and Application cannot be null.. or Users cannot be null");
+            //we can make this exeption shorter 
+        }
     }
 
     public Task<AuthResponseModel> GetUserWithRolesByIdAsync(int userId)
