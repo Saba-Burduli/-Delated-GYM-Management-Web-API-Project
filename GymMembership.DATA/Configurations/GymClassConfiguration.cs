@@ -15,6 +15,7 @@ namespace GymMembership.DATA.Configurations
         {
             builder.HasMany(gs => gs.GymClassUsers)
                 .WithOne(g => g.GymClass);     
+
                 
         }
     }
