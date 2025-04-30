@@ -21,10 +21,13 @@ public interface IUserRepository : IBaseRepository<User>
 
 public class UserRepository : BaseRepository<User>, IUserRepository
 {
-    public UserRepository(GymMembershipDbContext context) : base(context)
-    {
-    }
+    private readonly GymMembershipDbContext _context;
 
+    public UserRepository(GymMembershipDbContext context):base(context)
+    {
+        _context = context;
+    }
+    
     public Task<UserModel> GetUserProfileAsync()
     {
         throw new NotImplementedException();
