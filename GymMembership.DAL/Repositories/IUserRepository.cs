@@ -1,3 +1,4 @@
+using GymMembership.DATA;
 using GymMembership.DATA.Entities;
 using GymMembership.DATA.Infastructures;
 using GymMembership.SERVICE.DTOs.UserModels;
@@ -13,6 +14,49 @@ public interface IUserRepository : IBaseRepository<User>
     Task<AuthResponseModel> GetAllUserByRolesIdAsync(int roleId); // i added by myself 
     Task<AuthResponseModel> GetAllMembersAsync();
     Task<AuthResponseModel> GetAllTrainersAsync();
+    
     //maybe we gonna add more methods inside this repisitory file
     // like : GetUserProfileAsync() (optional) ,UpdateUserProfileAsync() (optional), DelateUserProfileAsync() (optional)
+}
+
+public class UserRepository : BaseRepository<User>, IUserRepository
+{
+    public UserRepository(GymMembershipDbContext context) : base(context)
+    {
+    }
+
+    public Task<UserModel> GetUserProfileAsync()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<AuthResponseModel> GetAllUserByIdAsync(int userId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<AuthResponseModel> GetAllUserByEmailAsync(string email)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<AuthResponseModel> GetUserWithRolesByIdAsync(int userId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<AuthResponseModel> GetAllUserByRolesIdAsync(int roleId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<AuthResponseModel> GetAllMembersAsync()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<AuthResponseModel> GetAllTrainersAsync()
+    {
+        throw new NotImplementedException();
+    }
 }
