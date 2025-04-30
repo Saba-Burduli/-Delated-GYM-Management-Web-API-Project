@@ -7,6 +7,4 @@ namespace GymMembership.DAL.Repositories;
 public interface IUserRepository : IBaseRepository<User>
 {
     Task<UserModel>GetUserByEmail(string email);
-    
-    
 }
