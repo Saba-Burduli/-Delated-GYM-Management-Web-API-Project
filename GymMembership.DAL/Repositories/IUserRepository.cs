@@ -55,7 +55,9 @@ public class UserRepository : BaseRepository<User>, IUserRepository
         {
             throw new ArgumentNullException("Users cannot be null.");
         }
-        return _context.
+
+        
+
     }
 
     public Task<AuthResponseModel> GetAllUserByRolesIdAsync(int roleId)
