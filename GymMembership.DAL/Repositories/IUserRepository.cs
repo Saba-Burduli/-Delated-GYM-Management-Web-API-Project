@@ -2,6 +2,7 @@ using GymMembership.DATA;
 using GymMembership.DATA.Entities;
 using GymMembership.DATA.Infastructures;
 using GymMembership.SERVICE.DTOs.UserModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace GymMembership.DAL.Repositories;
 
@@ -10,8 +11,8 @@ public interface IUserRepository : IBaseRepository<User>
     Task<UserModel> GetUserProfileAsync();
     Task<AuthResponseModel> GetAllUserByIdAsync(int userId);
     Task<User> GetAllUserByEmailAsync(string email);
-    Task<AuthResponseModel> GetUserWithRolesByIdAsync(int userId);
-    Task<AuthResponseModel> GetAllUserByRolesIdAsync(int roleId); // i added by myself 
+    Task<User> GetUserWithRolesByIdAsync(int userId);
+    Task<User> GetAllUserByRolesIdAsync(int roleId); // i added by myself 
     Task<List<User>> GetAllMembersAsync(); //if we need to GET all members together we mush use List in Task "<>"
     Task<List<User>> GetAllTrainersAsync();//if we need to GET all members together we mush use List in Task "<>"
     
@@ -49,20 +50,25 @@ public class UserRepository : BaseRepository<User>, IUserRepository
         return _context.Users.FirstOrDefault(u => u.Email == email);
     }
 
-    public Task<AuthResponseModel> GetUserWithRolesByIdAsync(int userId)
+    public async Task<User> GetUserWithRolesByIdAsync(int userId)
     {
+        //this if is just checking if User is null or not
         if (userId==null || _context.Users == null || _context.Roles == null)
         {
             throw new ArgumentNullException("Users cannot be null.");
         }
-
+      return await _context.Users
+          .Include(u=>u.Roles)
+          .FirstOrDefaultAsync(u=>u.UserId == userId);
         
 
     }
 
-    public Task<AuthResponseModel> GetAllUserByRolesIdAsync(int roleId)
+    public async Task<User> GetAllUserByRolesIdAsync(int roleId)
     {
-        throw new NotImplementedException();
+        return await _context.Users
+            .Include(u => u.Roles)
+            .Where(u => u.Roles.Any(r => r.RoleId == roleId));
     }
 
     public Task<AuthResponseModel> GetAllMembersAsync()
