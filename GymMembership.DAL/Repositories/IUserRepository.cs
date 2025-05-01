@@ -45,12 +45,17 @@ public class UserRepository : BaseRepository<User>, IUserRepository
             throw new ArgumentNullException("Bridge between DataBase and Application cannot be null.. or Users cannot be null");
             //we can make this exeption shorter 
         }
-        return _context.Users.FirstOrDefault(u => u.Email == email)
+
+        return _context.Users.FirstOrDefault(u => u.Email == email);
     }
 
     public Task<AuthResponseModel> GetUserWithRolesByIdAsync(int userId)
     {
-        throw new NotImplementedException();
+        if (userId==null || _context.Users == null || _context.Roles == null)
+        {
+            throw new ArgumentNullException("Users cannot be null.");
+        }
+        return _context.
     }
 
     public Task<AuthResponseModel> GetAllUserByRolesIdAsync(int roleId)
