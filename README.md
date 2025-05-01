@@ -43,6 +43,7 @@ We gonna add and Create in IRepository Folder.Because If non ethical hacker tryi
     <p>
       The **API layer** is responsible for handling **HTTP requests and responses** in an ASP.NET Web API project. It acts as the bridge between the client applications and the database.
 
+
     ### Key Responsibilities
     - **Routing Requests**: Maps incoming requests to the appropriate controller and action method.
     - **Data Processing**: Retrieves, processes, and returns data using Entity Framework.
