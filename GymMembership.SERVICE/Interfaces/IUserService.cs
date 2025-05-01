@@ -14,9 +14,6 @@ public interface IUserService
                                                                                 //think i dont need this
     List<GymClassModel> GetGymClassesByUserAsync(int userld);
 
-
-
-    
     
     
     
