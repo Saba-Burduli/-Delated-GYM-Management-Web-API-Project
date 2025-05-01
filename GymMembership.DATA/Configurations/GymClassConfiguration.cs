@@ -14,7 +14,9 @@ namespace GymMembership.DATA.Configurations
         public void Configure(EntityTypeBuilder<GymClass> builder)
         {
             builder.HasMany(gs => gs.GymClassUsers)
-                .WithOne(g => g.GymClass);       
+                .WithOne(g => g.GymClass);     
+
+                
         }
     }
 }
