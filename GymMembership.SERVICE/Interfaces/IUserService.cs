@@ -13,4 +13,5 @@ public interface IUserService
                                                                                 //In this <> i Have AuthResponseModel,bool together and
                                                                                 //think i dont need this
     List<GymClassModel> GetGymClassesByUserAsync(int userld);
+    
 }
