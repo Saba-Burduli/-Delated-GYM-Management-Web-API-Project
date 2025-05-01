@@ -15,5 +15,4 @@ public interface IUserService
     List<GymClassModel> GetGymClassesByUserAsync(int userld);
 
     
-    
 }
