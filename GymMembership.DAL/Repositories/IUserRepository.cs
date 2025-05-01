@@ -66,17 +66,23 @@ public class UserRepository : BaseRepository<User>, IUserRepository
 
     public async Task<User> GetAllUserByRolesIdAsync(int roleId)
     {
+        //this if is just checking if User is null or not
+        if (roleId==null || _context.Users == null || _context.Roles == null)
+        {
+            throw new ArgumentNullException("Users cannot be null.");
+        }
+
         return await _context.Users
             .Include(u => u.Roles)
-            .Where(u => u.Roles.Any(r => r.RoleId == roleId));
+            .FirstOrDefaultAsync(u => u.Roles.Any(r => r.RoleId == roleId));
     }
 
-    public Task<AuthResponseModel> GetAllMembersAsync()
+    public Task<List<User>> GetAllMembersAsync()
     {
         throw new NotImplementedException();
     }
 
-    public Task<AuthResponseModel> GetAllTrainersAsync()
+    public Task<List<User>> GetAllTrainersAsync()
     {
         throw new NotImplementedException();
     }
