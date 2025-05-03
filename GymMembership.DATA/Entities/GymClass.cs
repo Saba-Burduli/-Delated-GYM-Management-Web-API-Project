@@ -20,6 +20,7 @@ namespace GymMembership.DATA.Entities
         //GymClass => GymClassUsers ; One to Many ; (GymClass) => (GymClassUsers)
         public virtual ICollection<GymClassUsers>? GymClassUsers { get; set; }   
 
+
         
         
     }
