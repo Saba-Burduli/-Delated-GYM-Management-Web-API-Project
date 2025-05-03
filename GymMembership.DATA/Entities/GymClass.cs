@@ -21,5 +21,6 @@ namespace GymMembership.DATA.Entities
         public virtual ICollection<GymClassUsers>? GymClassUsers { get; set; }   
 
         
+        
     }
 }
