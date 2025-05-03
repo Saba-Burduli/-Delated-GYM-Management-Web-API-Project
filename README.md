@@ -21,6 +21,7 @@ Secured is mostly:
 
 We gonna add and Create in IRepository Folder.Because If non ethical hacker trying to crack your program and functionality its easy to get in Service layer (Business Layer in API). So its Common Way to Implement this important mathods in Repository's Folder(In API Layer)
 
+
 <br>
 <br>
 
