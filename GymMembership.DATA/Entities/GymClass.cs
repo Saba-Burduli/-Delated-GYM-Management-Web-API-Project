@@ -22,6 +22,5 @@ namespace GymMembership.DATA.Entities
 
 
         
-        
     }
 }
