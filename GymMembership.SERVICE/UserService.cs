@@ -37,6 +37,7 @@ public class UserService : IUserService
         throw new NotImplementedException();
     }
 
+    
     public List<GymClassModel> GetGymClassesByUserAsync(int userld)
     {
         throw new NotImplementedException();
