@@ -60,8 +60,6 @@ public class UserRepository : BaseRepository<User>, IUserRepository
       return await _context.Users
           .Include(u=>u.Roles)
           .FirstOrDefaultAsync(u=>u.UserId == userId);
-        
-
     }
 
     public async Task<User> GetAllUserByRolesIdAsync(int roleId)
