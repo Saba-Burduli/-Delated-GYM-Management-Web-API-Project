@@ -5,8 +5,10 @@ namespace GymMembership.SERVICE;
 
 public class UserService : IUserService
 {
-    //We have to implement some methods in there
-    //methods are in pdf
+    public UserService()
+    {
+        
+    }
     public Task<UserModel> GetUserProfileAsync()
     {
         throw new NotImplementedException();
