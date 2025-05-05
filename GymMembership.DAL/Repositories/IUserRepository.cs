@@ -35,7 +35,7 @@ public class UserRepository : BaseRepository<User>, IUserRepository
 
     public Task<User> GetAllUserByIdAsync(int userId)
     {
-        throw new NotImplementedException();//we have to add this methods in project +2
+        throw new NotImplementedException(); //we have to add this methods in project +2
     }
     
     public async Task<User> GetAllUserByEmailAsync(string email)
