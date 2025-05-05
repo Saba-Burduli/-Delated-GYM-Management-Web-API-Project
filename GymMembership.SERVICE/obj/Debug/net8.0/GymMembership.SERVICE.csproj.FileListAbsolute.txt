@@ -1,0 +1,15 @@
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/bin/Debug/net8.0/GymMembership.SERVICE.deps.json
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/bin/Debug/net8.0/GymMembership.SERVICE.runtimeconfig.json
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/bin/Debug/net8.0/GymMembership.SERVICE.dll
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/bin/Debug/net8.0/GymMembership.SERVICE.pdb
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/GymMembership.SERVICE.csproj.AssemblyReference.cache
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/GymMembership.SERVICE.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/GymMembership.SERVICE.AssemblyInfoInputs.cache
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/GymMembership.SERVICE.AssemblyInfo.cs
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/GymMembership.SERVICE.csproj.CoreCompileInputs.cache
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/GymMembership.SERVICE.sourcelink.json
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/GymMembership.SERVICE.dll
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/refint/GymMembership.SERVICE.dll
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/GymMembership.SERVICE.pdb
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/GymMembership.SERVICE.genruntimeconfig.cache
+/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/obj/Debug/net8.0/ref/GymMembership.SERVICE.dll
