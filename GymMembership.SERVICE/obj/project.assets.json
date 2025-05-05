@@ -4807,11 +4807,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DAL/GymMembership.DAL.csproj": {
-              "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DAL/GymMembership.DAL.csproj"
+            "C:\\Users\\User\\Desktop\\.NET Web API's\\GymMembership\\GymMembership.DAL\\GymMembership.DAL.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\.NET Web API's\\GymMembership\\GymMembership.DAL\\GymMembership.DAL.csproj"
             },
-            "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj": {
-              "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj"
+            "C:\\Users\\User\\Desktop\\.NET Web API's\\GymMembership\\GymMembership.DATA\\GymMembership.DATA.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\.NET Web API's\\GymMembership\\GymMembership.DATA\\GymMembership.DATA.csproj"
             }
           }
         }
