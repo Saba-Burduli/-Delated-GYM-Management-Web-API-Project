@@ -77,6 +77,7 @@ public class UserRepository : BaseRepository<User>, IUserRepository
             .FirstOrDefaultAsync(u => u.Roles.Any(r => r.RoleId == roleId));
     }
 
+    
     public Task<List<User>> GetAllMembersAsync()
     {
         throw new NotImplementedException();
