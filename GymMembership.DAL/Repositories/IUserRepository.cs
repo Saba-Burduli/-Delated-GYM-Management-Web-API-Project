@@ -7,7 +7,7 @@ namespace GymMembership.DAL.Repositories;
 
 public interface IUserRepository : IBaseRepository<User>
 {
-    Task<User> GetUserProfileAsync();
+    Task<User> GetUserProfileAsync(int userId);
     Task<User> GetAllUserByIdAsync(int userId);
     Task<User> GetAllUserByEmailAsync(string email);
     Task<User> GetUserWithRolesByIdAsync(int userId);
@@ -28,14 +28,27 @@ public class UserRepository : BaseRepository<User>, IUserRepository
         _context = context;
     }
     
-    public Task<User> GetUserProfileAsync()
+    public async Task<User> GetUserProfileAsync(int userId)
     {
-        throw new NotImplementedException(); //we have to add this methods in project +1
+        if (_context.Users==null)
+        {
+            throw new NullReferenceException("User is null");
+        }
+        return await _context.Users
+            .Include(u => u.Person)
+            .FirstOrDefaultAsync(u => u.UserId == userId);
+
     }
 
-    public Task<User> GetAllUserByIdAsync(int userId)
+    public async Task<User> GetAllUserByIdAsync(int userId)
     {
-        throw new NotImplementedException(); //we have to add this methods in project +2
+        if (_context.Users == null)
+        {
+            throw new NullReferenceException("User is null");
+        }
+        return await _context.Users
+            .Include(u => u.Person)
+            .FirstOrDefaultAsync(u => u.UserId == userId);
     }
     
     public async Task<User> GetAllUserByEmailAsync(string email)
