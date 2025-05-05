@@ -77,11 +77,15 @@ public class UserRepository : BaseRepository<User>, IUserRepository
 
     public async Task<List<User>> GetAllMembersAsync()
     {
-        if (_context == null || _context.Users == null)
+        if (_context==null || _context.Users == null)
         {
             throw new NullReferenceException("Users cannot be null.");
         }
-        return await _context.Users.ToListAsync(); //we have to get specific Users "Member"
+        return await _context.Users
+            .Where(u => u.Roles.Any(r => r.RoleName == "Trainer"))
+            .ToListAsync(); //this is how we can actually get specific data for example if
+                            //we need to get only Trainers We gonna use this type of code.
+
     }
 
     public Task<List<User>> GetAllTrainersAsync()
@@ -92,7 +96,10 @@ public class UserRepository : BaseRepository<User>, IUserRepository
         }
 
         return _context.Users
-            .ToListAsync(); //we have to get specific Users "Member"
+            .Where(u => u.Roles.Any(r => r.RoleName == "trainer"))
+            .ToListAsync();
+        //this is how we can actually get specific data for example if
+        //we need to get only Trainers We gonna use this type of code.
 
     }
 }
