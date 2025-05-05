@@ -75,13 +75,24 @@ public class UserRepository : BaseRepository<User>, IUserRepository
             .FirstOrDefaultAsync(u => u.Roles.Any(r => r.RoleId == roleId));
     }
 
-    public Task<List<User>> GetAllMembersAsync()
+    public async Task<List<User>> GetAllMembersAsync()
     {
-        throw new NotImplementedException();
+        if (_context == null || _context.Users == null)
+        {
+            throw new NullReferenceException("Users cannot be null.");
+        }
+        return await _context.Users.ToListAsync(); //we have to get specific Users "Member"
     }
 
     public Task<List<User>> GetAllTrainersAsync()
     {
-        throw new NotImplementedException();
+        if (_context==null || _context.Users == null)
+        {
+            throw new NullReferenceException("Users cannot be null.");
+        }
+
+        return _context.Users
+            .ToListAsync(); //we have to get specific Users "Member"
+
     }
 }
