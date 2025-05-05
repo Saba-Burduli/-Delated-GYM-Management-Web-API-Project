@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GymMembership.DAL\GymMembership.DAL.csproj" />
+    <ProjectReference Include="..\GymMembership.DATA\GymMembership.DATA.csproj" />
+  </ItemGroup>
+
 </Project>

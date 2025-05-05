@@ -29,9 +29,6 @@
             "projectReferences": {
               "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj": {
                 "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj"
-              },
-              "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj": {
-                "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj"
               }
             }
           }
@@ -125,11 +122,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj": {
-                "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -221,7 +214,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DAL/GymMembership.DAL.csproj": {
+                "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DAL/GymMembership.DAL.csproj"
+              },
+              "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj": {
+                "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.DATA/GymMembership.DATA.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

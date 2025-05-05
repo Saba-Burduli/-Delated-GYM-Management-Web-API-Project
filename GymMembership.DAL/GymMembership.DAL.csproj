@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GymMembership.DATA\GymMembership.DATA.csproj" />
-    <ProjectReference Include="..\GymMembership.SERVICE\GymMembership.SERVICE.csproj" />
   </ItemGroup>
 
 </Project>

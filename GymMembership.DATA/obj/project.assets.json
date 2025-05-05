@@ -1608,20 +1608,6 @@
             "rid": "win"
           }
         }
-      },
-      "GymMembership.SERVICE/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "9.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3"
-        },
-        "compile": {
-          "bin/placeholder/GymMembership.SERVICE.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GymMembership.SERVICE.dll": {}
-        }
       }
     }
   },
@@ -4738,16 +4724,10 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "GymMembership.SERVICE/1.0.0": {
-      "type": "project",
-      "path": "../GymMembership.SERVICE/GymMembership.SERVICE.csproj",
-      "msbuildProject": "../GymMembership.SERVICE/GymMembership.SERVICE.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "GymMembership.SERVICE >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.3",
@@ -4779,11 +4759,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj": {
-              "projectPath": "/Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership.SERVICE/GymMembership.SERVICE.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
