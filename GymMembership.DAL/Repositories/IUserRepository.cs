@@ -1,15 +1,14 @@
 using GymMembership.DATA;
 using GymMembership.DATA.Entities;
 using GymMembership.DATA.Infastructures;
-using GymMembership.SERVICE.DTOs.UserModels;
 using Microsoft.EntityFrameworkCore;
 
 namespace GymMembership.DAL.Repositories;
 
 public interface IUserRepository : IBaseRepository<User>
 {
-    Task<UserModel> GetUserProfileAsync();
-    Task<AuthResponseModel> GetAllUserByIdAsync(int userId);
+    Task<User> GetUserProfileAsync();
+    Task<User> GetAllUserByIdAsync(int userId);
     Task<User> GetAllUserByEmailAsync(string email);
     Task<User> GetUserWithRolesByIdAsync(int userId);
     Task<User> GetAllUserByRolesIdAsync(int roleId); // i added by myself 
@@ -29,14 +28,14 @@ public class UserRepository : BaseRepository<User>, IUserRepository
         _context = context;
     }
     
-    public Task<UserModel> GetUserProfileAsync()
+    public Task<User> GetUserProfileAsync()
     {
-        throw new NotImplementedException();
+        throw new NotImplementedException(); //we have to add this methods in project +1
     }
 
-    public Task<AuthResponseModel> GetAllUserByIdAsync(int userId)
+    public Task<User> GetAllUserByIdAsync(int userId)
     {
-        throw new NotImplementedException();
+        throw new NotImplementedException();//we have to add this methods in project +2
     }
     
     public async Task<User> GetAllUserByEmailAsync(string email)
