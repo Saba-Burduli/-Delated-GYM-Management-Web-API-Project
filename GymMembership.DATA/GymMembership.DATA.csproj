@@ -19,8 +19,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\GymMembership.SERVICE\GymMembership.SERVICE.csproj" />
-  </ItemGroup>
-
 </Project>

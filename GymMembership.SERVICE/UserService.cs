@@ -1,12 +1,17 @@
+using GymMembership.DAL.Repositories;
 using GymMembership.SERVICE.DTOs.UserModels;
 using GymMembership.SERVICE.Interfaces;
+
 
 namespace GymMembership.SERVICE;
 
 public class UserService : IUserService
 {
-    //We have to implement some methods in there
-    //methods are in pdf
+    private readonly IUserRepository _userRepository;
+    public UserService(IUserRepository userRepository)
+    {
+        _userRepository = userRepository;
+    }
     public Task<UserModel> GetUserProfileAsync()
     {
         throw new NotImplementedException();
@@ -21,7 +26,7 @@ public class UserService : IUserService
     {
         throw new NotImplementedException();
     }
-        //lets check git 
+        //Lets check git 
     public Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model)
     {
         throw new NotImplementedException();
