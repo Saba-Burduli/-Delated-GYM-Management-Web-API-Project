@@ -19,7 +19,6 @@ public class BaseRepository<T> : IBaseRepository<T> where T : class
     
     
 
-
     
     
     public async Task<IEnumerable<T>> GetAllAsync()
