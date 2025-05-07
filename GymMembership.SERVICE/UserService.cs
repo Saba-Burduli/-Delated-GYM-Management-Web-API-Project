@@ -12,6 +12,7 @@ public class UserService : IUserService
     {
         _userRepository = userRepository;
     }
+    
     public Task<UserModel> GetUserProfileAsync()
     {
         throw new NotImplementedException();
