@@ -20,18 +20,8 @@ Secured is mostly:
 ![Untitled](https://github.com/user-attachments/assets/a5017627-0859-4473-b5b2-f39b122cd888)
 
 We gonna add and Create in IRepository Folder.Because If non ethical hacker trying to crack your program and functionality its easy to get in Service layer (Business Layer in API). So its Common Way to Implement this important mathods in Repository's Folder(In API Layer)
-
-
-
-
-
 <br>
 <br>
-
-
-
-
-
 💡 Let's Talk about layers in my Project :
 
 <ul>
