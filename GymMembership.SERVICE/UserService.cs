@@ -27,7 +27,7 @@ public class UserService : IUserService
     {
         throw new NotImplementedException();
     }
-        //Lets check git 
+    
     public Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model)
     {
         throw new NotImplementedException();
@@ -42,7 +42,6 @@ public class UserService : IUserService
     {
         throw new NotImplementedException();
     }
-
     
     public List<GymClassModel> GetGymClassesByUserAsync(int userld)
     {
