@@ -34,7 +34,6 @@ public class UserService : IUserService
     {
         // var user = await _userRepository.UserRegistrationAsync(); //i need this method to add in IUserRepository
         throw new NotImplementedException();
-        
     }
 
     public Task<AuthResponseModel> LoginAsync(string username, string password)
@@ -42,9 +41,15 @@ public class UserService : IUserService
         throw new NotImplementedException();
     }//here i need Ipasswordhash.
     
-    public Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model)
+    public async Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model,int userId)
     {
-        throw new NotImplementedException();
+        var user = await _userRepository.GetByIDAsync(userId);
+        if (user == null)
+            return new AuthResponseModel{Success = false, Message = "User not found"};
+        if (!string.IsNullOrWhiteSpace(model.UserName))
+        {
+            return new AuthResponseModel{Success = false, Message = "User name is already taken"};
+        }
     }//here i can use IUserRepository to update user profile.
     
     public Task<AuthResponseModel> DeleteUserProfileAsync()
