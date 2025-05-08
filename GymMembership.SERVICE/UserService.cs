@@ -13,38 +13,52 @@ public class UserService : IUserService
         _userRepository = userRepository;
     }
     
-    public Task<UserModel> GetUserProfileAsync()
+    public async Task<UserModel> GetUserProfileAsync(int userId)
     {
-        throw new NotImplementedException();
-    }
+        var user = await _userRepository.GetUserProfileAsync(userId);
+        if (user==null)
+        {
+            throw new NullReferenceException("User is null");
+        }
+        return new UserModel()
+        {
+            UserId = userId,
+            UserName = user.UserName,
+            Email = user.Email,
+            RegistrationDate = user.RegistrationDate,
+        }; //this is manual mapping.
 
-    public Task<AuthResponseModel> UserRegistrationAsync(int? roleld, RegisterUserModel model)
+    }//here i can use IUserRepository to get user profile.
+
+    public async Task<AuthResponseModel> UserRegistrationAsync(int? roleld, RegisterUserModel model)
     {
+        // var user = await _userRepository.UserRegistrationAsync(); //i need this method to add in IUserRepository
         throw new NotImplementedException();
+        
     }
 
     public Task<AuthResponseModel> LoginAsync(string username, string password)
     {
         throw new NotImplementedException();
-    }
+    }//here i need Ipasswordhash.
     
     public Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model)
     {
         throw new NotImplementedException();
-    }
+    }//here i can use IUserRepository to update user profile.
     
     public Task<AuthResponseModel> DeleteUserProfileAsync()
     {
         throw new NotImplementedException();
-    }
+    }//here i can use IUserRepository to delete user profile.
 
     public Task<bool> AssignGymClassesAsync(List<int> gymClassIds)
     {
         throw new NotImplementedException();
-    }
+    }//im gonna add GymClassRepository 
     
     public List<GymClassModel> GetGymClassesByUserAsync(int userld)
     {
         throw new NotImplementedException();
-    }
+    }//im gonna add GymClassRepository 
 }
