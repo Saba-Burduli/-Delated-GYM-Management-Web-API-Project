@@ -32,8 +32,6 @@ public class UserService : IUserService
     {
         throw new NotImplementedException();
     }
-
-    
     
     public Task<AuthResponseModel> DeleteUserProfileAsync()
     {
