@@ -48,7 +48,12 @@ public class UserService : IUserService
             return new AuthResponseModel{Success = false, Message = "User not found"};
         if (!string.IsNullOrWhiteSpace(model.UserName))
         {
-            return new AuthResponseModel{Success = false, Message = "User name is already taken"};
+            user.UserName = model.UserName;
+        }
+
+        if (!string.IsNullOrEmpty(model.Password))
+        {
+            // user.PasswordHash= await _passwordHash i need PasswordHasherRepo
         }
     }//here i can use IUserRepository to update user profile.
     
