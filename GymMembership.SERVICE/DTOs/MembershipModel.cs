@@ -11,5 +11,4 @@ public class MembershipModel
     public bool IsActive { get; set; }
 
     public decimal Price { get; set; }  //I add this field By Myself
-
 }
