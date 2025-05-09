@@ -53,6 +53,7 @@ public class UserService : IUserService
 
         if (!string.IsNullOrEmpty(model.Password))
         {
+            throw new NotImplementedException();
             // user.PasswordHash= await _passwordHash i need PasswordHasherRepo
         }
     }//here i can use IUserRepository to update user profile.
