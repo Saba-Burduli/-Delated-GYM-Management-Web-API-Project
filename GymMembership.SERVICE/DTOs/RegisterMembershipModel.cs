@@ -9,5 +9,4 @@ public class RegisterMembershipModel
     public DateTime StartDate { get; set; } = DateTime.UtcNow; //we gonna test it now .. if it works i shouldnt add DateTime.Now
         
     public DateTime EndDate { get; set; } = DateTime.UtcNow; //we gonna test it now .. if it works i shouldnt add DateTime.Now
-    
 }
