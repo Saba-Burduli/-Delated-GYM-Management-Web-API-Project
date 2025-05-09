@@ -16,5 +16,4 @@ public class RegisterUserModel
     public PersonModel? Person { get; set; }
 
     public int RoleId { get; set; }
-
 }
