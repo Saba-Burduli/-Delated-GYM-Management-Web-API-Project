@@ -63,6 +63,7 @@ public class UserService : IUserService
         throw new NotImplementedException();
     }//here i can use IUserRepository to delete user profile.
 
+    
     public Task<bool> AssignGymClassesAsync(List<int> gymClassIds)
     {
         throw new NotImplementedException();
