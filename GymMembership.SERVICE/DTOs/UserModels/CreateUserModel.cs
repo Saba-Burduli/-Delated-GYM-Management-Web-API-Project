@@ -15,6 +15,5 @@ public class CreateUserModel
     public PersonModel PersonModel  { get; set; }
     
     public int? RoleId { get; set; }
-
     
 }
