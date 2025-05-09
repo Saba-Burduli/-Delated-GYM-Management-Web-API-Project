@@ -53,7 +53,7 @@ public class UserService : IUserService
 
         if (!string.IsNullOrEmpty(model.Password))
         {
-            
+            return new AuthResponseModel{Success = false, Message = "Password cannot be empty"};//i have to delate this 
             // user.PasswordHash= await _passwordHash i need PasswordHasherRepo
         }
     }//here i can use IUserRepository to update user profile.
