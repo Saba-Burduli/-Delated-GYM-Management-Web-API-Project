@@ -8,7 +8,7 @@ public interface IPasswordHasher
     Task<bool> VerifyPasswordHashAsync(string password, string passwordHash);
 }
 
-public class PasswordHasher : IPasswordHasher
+public sealed class PasswordHasher : IPasswordHasher
 {
     //So this Constrants are Main in passwordhashing to get different hashs .
     //1.SaltSize : Is added Value to  Hashing algorithm To get different Hashs always. If user1 set password (user123)
@@ -19,18 +19,19 @@ public class PasswordHasher : IPasswordHasher
     //2.HashSize : Is the size of the hashed password.
     private const int HashSize = 32;//this is recommended by Microsoft.20 bytes is enough.
     
-    private const int Iterations = 10000;//3.Iterations : Is the number of times the hashing algorithm is applied.
+    private const int Iterations = 100000;//3.Iterations : Is the number of times the hashing algorithm is applied.
     
-    private readonly HashAlgorithmName Algorithm = HashAlgorithmName.SHA3_512;
-    public Task<string> HashPasswordAsync(string password)
+    private static readonly HashAlgorithmName Algorithm = HashAlgorithmName.SHA3_512;
+    public async Task<string> HashPasswordAsync(string password)
     {
         //Salt generation
         byte[] salt = RandomNumberGenerator.GetBytes(SaltSize);//this is for generate random SaltSize each Iteration
         byte[] hash = Rfc2898DeriveBytes.Pbkdf2(password,salt,Iterations,Algorithm,HashSize);
+        return $"{Convert.ToHexString(hash)}-{Convert.ToHexString(salt)}";
     }
 
     public Task<bool> VerifyPasswordHashAsync(string password, string passwordHash)
     {
-        throw new NotImplementedException();
+        
     }
 }
