@@ -1,4 +1,5 @@
 using System.Security.Cryptography;
+using GymMembership.DATA.Entities;
 
 namespace GymMembership.DAL.Repositories;
 
@@ -30,8 +31,15 @@ public sealed class PasswordHasher : IPasswordHasher
         return $"{Convert.ToHexString(hash)}-{Convert.ToHexString(salt)}";
     }
 
-    public Task<bool> VerifyPasswordHashAsync(string password, string passwordHash)
+    public async Task<bool> VerifyPasswordHashAsync(string password, string passwordHash)
     {
-        
+        string[] parts = passwordHash.Split('-');
+        byte[] hash=Convert.FromHexString(parts[0]);
+        byte[] salt = Convert.FromHexString(parts[1]);
+        byte[] inputHash = Rfc2898DeriveBytes.Pbkdf2(password,salt,Iterations,Algorithm,HashSize);
+        // return inputHash.SequenceEqual(hash); //its not right practice we have to not implement this method in this way.
+        return CryptographicOperations.FixedTimeEquals(hash,inputHash); //So this type of method is better because if hacker want to get some
+                                                                        //loading time to guess password using hash he can't get time because
+                                                                        //CryptographicOperations.FixedTimeEquals means that there is no unfixed time betwenn inputhash and hash.
     }
 }
