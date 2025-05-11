@@ -21,11 +21,12 @@ public class PasswordHasher : IPasswordHasher
     
     private const int Iterations = 10000;//3.Iterations : Is the number of times the hashing algorithm is applied.
     
-    private readonly HashAlgorithmName algorithm = HashAlgorithmName.SHA3_512;
+    private readonly HashAlgorithmName Algorithm = HashAlgorithmName.SHA3_512;
     public Task<string> HashPasswordAsync(string password)
     {
         //Salt generation
         byte[] salt = RandomNumberGenerator.GetBytes(SaltSize);//this is for generate random SaltSize each Iteration
+        byte[] hash = Rfc2898DeriveBytes.Pbkdf2(password,salt,Iterations,Algorithm,HashSize);
     }
 
     public Task<bool> VerifyPasswordHashAsync(string password, string passwordHash)
