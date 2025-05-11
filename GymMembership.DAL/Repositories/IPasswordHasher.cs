@@ -37,7 +37,7 @@ public sealed class PasswordHasher : IPasswordHasher
         byte[] hash=Convert.FromHexString(parts[0]);
         byte[] salt = Convert.FromHexString(parts[1]);
         byte[] inputHash = Rfc2898DeriveBytes.Pbkdf2(password,salt,Iterations,Algorithm,HashSize);
-        // return inputHash.SequenceEqual(hash); //its not right practice we have to not implement this method in this way.
+        // return inputHash.SequenceEqual(hash); //its not right practice we have not implement this return in this way. Because in this implementation hacker have some time to guess inputHash and hash because they are Compiling long time.
         return CryptographicOperations.FixedTimeEquals(hash,inputHash); //So this type of method is better because if hacker want to get some
                                                                         //loading time to guess password using hash he can't get time because
                                                                         //CryptographicOperations.FixedTimeEquals means that there is no unfixed time betwenn inputhash and hash.
