@@ -35,7 +35,6 @@ namespace GymMembership.DATA.Entities
 
         //Person => User ; One to One ; (Person) => (User) but We can do One to Many(like Person can Have Many Users)   
         public virtual User? User { get; set; }
-        
     }
 }
 
