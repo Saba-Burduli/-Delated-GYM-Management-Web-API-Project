@@ -15,8 +15,7 @@ namespace GymMembership.DATA.Entities
         [Required]
         public string? GymClassName { get; set; } //Add seeding for GymClassName (wrestling, judo, karate, boxing)
 
-        //Relations :
-        
+        //Relations :        
         //GymClass => GymClassUsers ; One to Many ; (GymClass) => (GymClassUsers)
         public virtual ICollection<GymClassUsers>? GymClassUsers { get; set; }   
     }
