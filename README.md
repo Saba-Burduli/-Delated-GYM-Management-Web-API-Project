@@ -11,7 +11,6 @@ Secured is mostly:
   <li>Payment()</li>
   <li>RegisterUser()</li>
   <li>SubscripitonInfo()</li>
-  
 </ul>
 
 <h2> Here Is All Important Relations Between Entity Classes:</h2>
