@@ -7,6 +7,7 @@ public interface IBaseRepository<T> where T : class
     Task<T>GetByIDAsync(int id);
     
     Task AddAsync(T entity);
+    
     Task UpdateAsync(T entity);
     Task DeleteAsync(int id);
     
