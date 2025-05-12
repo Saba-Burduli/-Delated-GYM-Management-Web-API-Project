@@ -11,5 +11,4 @@ public interface IBaseRepository<T> where T : class
     Task UpdateAsync(T entity);
     
     Task DeleteAsync(int id);
-    
 }
