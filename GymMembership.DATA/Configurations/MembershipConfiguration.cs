@@ -22,8 +22,7 @@ namespace GymMembership.DATA.Configurations
              builder.Property(m=>m.StartDate);
              builder.Property(m=>m.EndDate);
              builder.Property(m => m.IsActive);
-             builder.Property(m => m.Price);
-             
+             builder.Property(m => m.Price); 
         }
     }
 }
