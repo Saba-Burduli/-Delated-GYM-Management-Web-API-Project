@@ -19,6 +19,7 @@ public class AdminService : IAdminService
     {
         throw new NotImplementedException();
     }
+    
     public Task<AuthResponseModel> UpdateUserDetailsAsync(int userld, UpdateUserModel model)
     {
         throw new NotImplementedException();
