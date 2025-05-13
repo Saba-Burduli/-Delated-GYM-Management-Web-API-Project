@@ -15,7 +15,6 @@ namespace GymMembership.DATA.Configurations
         {
             builder.HasKey(r => r.RoleId);
             builder.Property(r=>r.RoleName).IsRequired();
-            
         }
     }
 }
