@@ -14,6 +14,7 @@ public class AdminService : IAdminService
     {
         throw new NotImplementedException();
     }
+    
     public Task<UserModel> AddUserAsync(UserModel model)
     {
         throw new NotImplementedException();
