@@ -9,6 +9,7 @@ public class AdminService : IAdminService
     {
         throw new NotImplementedException();
     }
+    
     public Task<UserModel> GetUserByIdAsync(int userld)
     {
         throw new NotImplementedException();
