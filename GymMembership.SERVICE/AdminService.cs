@@ -24,6 +24,7 @@ public class AdminService : IAdminService
     {
         throw new NotImplementedException();
     }
+    
     public Task<AuthResponseModel> RemoveUserAsync(int userld)
     {
         throw new NotImplementedException();
