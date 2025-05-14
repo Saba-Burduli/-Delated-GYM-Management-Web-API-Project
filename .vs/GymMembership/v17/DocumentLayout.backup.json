@@ -1,57 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\membershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\2070d863-e519-4fe7-9f2a-4858ba3374b5_Maeve-main.zip.4b5\\Maeve-main\\src\\main.cpp||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C977DA7-CAF0-40D4-9A06-C25F423F6E69}|GymMembership.SERVICE\\GymMembership.SERVICE.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C977DA7-CAF0-40D4-9A06-C25F423F6E69}|GymMembership.SERVICE\\GymMembership.SERVICE.csproj|solutionrelative:gymmembership.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\entities\\membershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\membershiptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\entities\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\membership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\gymclassusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\entities\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\gymclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\configurations\\gymclassconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\configurations\\gymclassconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\configurations\\gymclassconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership.data\\configurations\\membershipconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership.data\\configurations\\membershipconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F5467A-C181-4EF1-A96C-11C9A1BF24F2}|GymMembership.DATA\\GymMembership.DATA.csproj|solutionrelative:gymmembership.data\\configurations\\membershipconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85624C5A-E20D-4B1A-A06B-5C12ADBB0729}|GymMembership\\GymMembership.API.csproj|c:\\users\\user\\desktop\\.net web api\u0027s\\gymmembership\\gymmembership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85624C5A-E20D-4B1A-A06B-5C12ADBB0729}|GymMembership\\GymMembership.API.csproj|c:\\users\\user\\source\\repos\\-delated-gym-management-web-api-project\\gymmembership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85624C5A-E20D-4B1A-A06B-5C12ADBB0729}|GymMembership\\GymMembership.API.csproj|solutionrelative:gymmembership\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,7 +69,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,11 +153,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\2070d863-e519-4fe7-9f2a-4858ba3374b5_Maeve-main.zip.4b5\\Maeve-main\\src\\main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\2070d863-e519-4fe7-9f2a-4858ba3374b5_Maeve-main.zip.4b5\\Maeve-main\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\2070d863-e519-4fe7-9f2a-4858ba3374b5_Maeve-main.zip.4b5\\Maeve-main\\src\\main.cpp [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\2070d863-e519-4fe7-9f2a-4858ba3374b5_Maeve-main.zip.4b5\\Maeve-main\\src\\main.cpp [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-13T14:12:54.811Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.SERVICE\\UserService.cs",
+              "RelativeDocumentMoniker": "GymMembership.SERVICE\\UserService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.SERVICE\\UserService.cs",
+              "RelativeToolTip": "GymMembership.SERVICE\\UserService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:03:30.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "GymClassUsers.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClassUsers.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\GymClassUsers.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClassUsers.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\GymClassUsers.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwBUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -158,11 +191,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\User.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\User.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\User.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -170,11 +203,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Person.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\Person.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Person.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Person.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\Person.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\Person.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -182,11 +215,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Role.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\Role.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Role.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\Role.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -194,11 +227,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GymClass.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClass.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\GymClass.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\GymClass.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\GymClass.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\GymClass.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\GymClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -206,11 +239,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Membership.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Membership.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\Membership.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\Membership.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\Membership.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\Membership.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\Membership.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -218,24 +251,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MembershipType.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\MembershipType.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\MembershipType.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Entities\\MembershipType.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Entities\\MembershipType.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Entities\\MembershipType.cs",
               "RelativeToolTip": "GymMembership.DATA\\Entities\\MembershipType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T19:39:32.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "GymClassConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\GymClassConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\GymClassConfiguration.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\GymClassConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\GymClassConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\GymClassConfiguration.cs",
               "RelativeToolTip": "GymMembership.DATA\\Configurations\\GymClassConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,11 +276,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\UserConfiguration.cs",
               "RelativeToolTip": "GymMembership.DATA\\Configurations\\UserConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,11 +288,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "PersonConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
               "RelativeToolTip": "GymMembership.DATA\\Configurations\\PersonConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,11 +300,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "RoleConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
               "RelativeToolTip": "GymMembership.DATA\\Configurations\\RoleConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -279,11 +312,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MembershipConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
               "RelativeDocumentMoniker": "GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
               "RelativeToolTip": "GymMembership.DATA\\Configurations\\MembershipConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,11 +324,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership\\Program.cs",
               "RelativeDocumentMoniker": "GymMembership\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\.NET Web API\u0027s\\GymMembership\\GymMembership\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\-Delated-GYM-Management-Web-API-Project\\GymMembership\\Program.cs",
               "RelativeToolTip": "GymMembership\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
