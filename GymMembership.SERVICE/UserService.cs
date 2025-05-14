@@ -57,7 +57,7 @@ public class UserService : IUserService
         if (!string.IsNullOrEmpty(model.Password))
         {
             //i have to hashpassword method in there but check dachis project
-            bool verified = await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,model.Password);//added this by myself
+            bool verified = await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,model.Password);//added this by myself (and i have to check if its right)
             return new AuthResponseModel{Success = true, Message = "All good"};
 
             //i have to delate this   
