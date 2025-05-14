@@ -57,7 +57,10 @@ public class UserService : IUserService
         if (!string.IsNullOrEmpty(model.Password))
         {
             //i have to hashpassword method in there but check dachis project
-            return new AuthResponseModel{Success = false, Message = "Password cannot be empty"};//i have to delate this   
+            bool verified = await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,model.Password);//added this by myself
+            return new AuthResponseModel{Success = true, Message = "All good"};
+
+            //i have to delate this   
         }
         return await _userService.UpdateUserProfileAsync(model,userId); //i added this by myself
     }//here i can use IUserRepository to update user profile.
