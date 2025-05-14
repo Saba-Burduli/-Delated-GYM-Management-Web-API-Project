@@ -59,18 +59,18 @@ public class UserService : IUserService
             //i have to hashpassword method in there but check dachis project
             bool verified = await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,model.Password);//added this by myself (and i have to check if its right)
             return new AuthResponseModel{Success = true, Message = "All good"};
-
-            //i have to delate this   
         }
         return await _userService.UpdateUserProfileAsync(model,userId); //i added this by myself
-    }//here i can use IUserRepository to update user profile.
+    }  //here i can use IUserRepository to update user profile.
             
     public Task<AuthResponseModel> DeleteUserProfileAsync()
     {
-        throw new NotImplementedException();
+        if (true)
+        {
+
+        }
     }//here i can use IUserRepository to delete user profile.
     
-
     public Task<bool> AssignGymClassesAsync(List<int> gymClassIds)
     {
         throw new NotImplementedException();
