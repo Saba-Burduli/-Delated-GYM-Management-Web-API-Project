@@ -14,12 +14,10 @@ namespace GymMembership.DATA.Entities
     {
         [Key]
         public int RoleId { get; set; }
-
         [Required]
         public string? RoleName { get; set; } //add seeding in there (Admin, Trainer, Member)
         
         //Relations:
         public virtual ICollection<User>? Users { get; set; }         
-        
     }
 }

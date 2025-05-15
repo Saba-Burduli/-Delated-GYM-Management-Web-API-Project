@@ -294,3 +294,14 @@
 /Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership/bin/Debug/net8.0/GymMembership.DAL.pdb
 /Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership/bin/Debug/net8.0/GymMembership.DATA.pdb
 /Users/gstore/RiderProjects/-Delated-GYM-Management-Web-API-Project/GymMembership/bin/Debug/net8.0/GymMembership.SERVICE.pdb
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.AssemblyInfo.cs
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.sourcelink.json
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.dll
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\refint\GymMembership.API.dll
+C:\Users\User\Source\Repos\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.pdb

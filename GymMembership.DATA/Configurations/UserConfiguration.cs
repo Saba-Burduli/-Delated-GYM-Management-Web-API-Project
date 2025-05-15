@@ -25,7 +25,7 @@ namespace GymMembership.DATA.Configurations
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade));
-            
+                        
         }
     }
 }

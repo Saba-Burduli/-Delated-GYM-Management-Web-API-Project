@@ -8,9 +8,12 @@ namespace GymMembership.SERVICE;
 public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
-    public UserService(IUserRepository userRepository)
+    private readonly IPasswordHasher _passwordHasher;
+    private readonly IUserService _userService;
+    public UserService(IUserRepository userRepository, IUserService userService)
     {
         _userRepository = userRepository;
+        _userService = userService;
     }
     
     public async Task<UserModel> GetUserProfileAsync(int userId)
@@ -44,23 +47,28 @@ public class UserService : IUserService
     public async Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model,int userId)
     {
         var user = await _userRepository.GetByIDAsync(userId);
+
         if (user == null)
             return new AuthResponseModel{Success = false, Message = "User not found"};
+
         if (!string.IsNullOrWhiteSpace(model.UserName))
-        {
             user.UserName = model.UserName;
-        }
 
         if (!string.IsNullOrEmpty(model.Password))
         {
-            return new AuthResponseModel{Success = false, Message = "Password cannot be empty"};//i have to delate this 
-            // user.PasswordHash= await _passwordHash i need PasswordHasherRepo
+            //i have to hashpassword method in there but check dachis project
+            bool verified = await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,model.Password);//added this by myself (and i have to check if its right)
+            return new AuthResponseModel{Success = true, Message = "All good"};
         }
-    }//here i can use IUserRepository to update user profile.
-    
+        return await _userService.UpdateUserProfileAsync(model,userId); //i added this by myself
+    }  //here i can use IUserRepository to update user profile.
+            
     public Task<AuthResponseModel> DeleteUserProfileAsync()
     {
-        throw new NotImplementedException();
+        if (true)
+        {
+
+        }
     }//here i can use IUserRepository to delete user profile.
     
     public Task<bool> AssignGymClassesAsync(List<int> gymClassIds)
@@ -71,4 +79,7 @@ public class UserService : IUserService
     {
         throw new NotImplementedException();
     }//im gonna add GymClassRepository 
+
+
+    //this commit for check git on visual studio +++
 }

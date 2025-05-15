@@ -9,20 +9,25 @@ public class AdminService : IAdminService
     {
         throw new NotImplementedException();
     }
+    
     public Task<UserModel> GetUserByIdAsync(int userld)
     {
         throw new NotImplementedException();
     }
+    
     public Task<UserModel> AddUserAsync(UserModel model)
     {
         throw new NotImplementedException();
     }
+    
     public Task<AuthResponseModel> UpdateUserDetailsAsync(int userld, UpdateUserModel model)
     {
         throw new NotImplementedException();
     }
+    
     public Task<AuthResponseModel> RemoveUserAsync(int userld)
     {
         throw new NotImplementedException();
     }
+    
 }

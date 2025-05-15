@@ -1,8 +1,5 @@
 
-
-
 <h1> 💪 GYM Membership Web API</h1>
-
 
 Using in ASP.NET Core Entity Framework (ORM) is most Popular and correct Practice for our Backend Projects.In This Project I'm gonna Create HTTP Controllers for API ofc. Also I'm gonna Use Some Security standart's Like General Data Protection Regulation (GDPR) And Also I'm gonna use Data Protection for our future Users.
 
@@ -13,7 +10,6 @@ Secured is mostly:
   <li>Payment()</li>
   <li>RegisterUser()</li>
   <li>SubscripitonInfo()</li>
-  
 </ul>
 
 <h2> Here Is All Important Relations Between Entity Classes:</h2>
@@ -51,6 +47,7 @@ We gonna add and Create in IRepository Folder.Because If non ethical hacker tryi
     - **Validation & Authentication**: Ensures data integrity and security.
     - **Response Formatting**: Returns data in JSON or XML format for easy consumption.
     </p>
+
 
    <h3> <li> 🔗 Service Layer</li></h3>
         <p> The Service Layer acts as an intermediary between the API layer and the data access layer (DAL).
