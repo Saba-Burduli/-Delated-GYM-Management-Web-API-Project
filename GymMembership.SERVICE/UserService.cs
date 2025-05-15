@@ -65,10 +65,7 @@ public class UserService : IUserService
             
     public Task<AuthResponseModel> DeleteUserProfileAsync()
     {
-        if (true)
-        {
-
-        }
+        throw new NotImplementedException();
     }//here i can use IUserRepository to delete user profile.
     
     public Task<bool> AssignGymClassesAsync(List<int> gymClassIds)
