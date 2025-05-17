@@ -10,19 +10,21 @@ public class UserService : IUserService
     private readonly IUserRepository _userRepository;
     private readonly IPasswordHasher _passwordHasher;
     private readonly IUserService _userService;
+
     public UserService(IUserRepository userRepository, IUserService userService)
     {
         _userRepository = userRepository;
         _userService = userService;
     }
-    
+
     public async Task<UserModel> GetUserProfileAsync(int userId)
     {
         var user = await _userRepository.GetUserProfileAsync(userId);
-        if (user==null)
+        if (user == null)
         {
             throw new NullReferenceException("User is null");
         }
+
         return new UserModel()
         {
             UserId = userId,
@@ -30,8 +32,7 @@ public class UserService : IUserService
             Email = user.Email,
             RegistrationDate = user.RegistrationDate,
         }; //this is manual mapping.
-
-    }//here i can use IUserRepository to get user profile.
+    } //here i can use IUserRepository to get user profile.
 
     public async Task<AuthResponseModel> UserRegistrationAsync(int? roleld, RegisterUserModel model)
     {
@@ -42,14 +43,14 @@ public class UserService : IUserService
     public Task<AuthResponseModel> LoginAsync(string username, string password)
     {
         throw new NotImplementedException();
-    }//here i need Ipasswordhash.
-    
-    public async Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model,int userId)
+    } //here i need Ipasswordhash.
+
+    public async Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model, int userId)
     {
         var user = await _userRepository.GetByIDAsync(userId);
 
         if (user == null)
-            return new AuthResponseModel{Success = false, Message = "User not found"};
+            return new AuthResponseModel { Success = false, Message = "User not found" };
 
         if (!string.IsNullOrWhiteSpace(model.UserName))
             user.UserName = model.UserName;
@@ -57,25 +58,35 @@ public class UserService : IUserService
         if (!string.IsNullOrEmpty(model.Password))
         {
             //i have to hashpassword method in there but check dachis project
-            bool verified = await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,model.Password);//added this by myself (and i have to check if its right)
-            return new AuthResponseModel{Success = true, Message = "All good"};
+            bool verified =
+                await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,
+                    model.Password); //added this by myself (and i have to check if its right)
+            return new AuthResponseModel { Success = true, Message = "All good" };
         }
-        return await _userService.UpdateUserProfileAsync(model,userId); //i added this by myself
-    }  //here i can use IUserRepository to update user profile.
-            
-    public Task<AuthResponseModel> DeleteUserProfileAsync()
+
+        return await _userService.UpdateUserProfileAsync(model, userId); //i added this by myself
+    } //here i can use IUserRepository to update user profile.
+
+    public Task<AuthResponseModel> DeleteUserProfileAsync(int userId)
     {
-        throw new NotImplementedException();
-    }//here i can use IUserRepository to delete user profile.
-    
+        var user = await _userRepository.DeleteAsync(userId);
+        if (user == null)
+        {
+            return new AuthResponseModel { Success = false, Message = "User not found" };
+        }
+
+        return new AuthResponseModel { Success = true, Message = "User deleted" };
+    } //here i can use IUserRepository to delete user profile.
+
     public Task<bool> AssignGymClassesAsync(List<int> gymClassIds)
     {
         throw new NotImplementedException();
-    }//im gonna add GymClassRepository 
+    } //im gonna add GymClassRepository 
+
     public List<GymClassModel> GetGymClassesByUserAsync(int userld)
     {
         throw new NotImplementedException();
-    }//im gonna add GymClassRepository 
+    } //im gonna add GymClassRepository 
 
 
     //this commit for check git on visual studio +++
