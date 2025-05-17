@@ -75,17 +75,24 @@ public class UserService : IUserService
         
         await _userRepository.DeleteAsync(user.UserId);
         return new AuthResponseModel { Success = true, Message = "User deleted" };
-    } //here i can use IUserRepository to delete user profile.
+    }
 
-    public Task<bool> AssignGymClassesAsync(List<int> gymClassIds)
+    public Task<bool> AssignToGymClassesAsync(List<int> gymClassIds) //Added this methods name +To
     {
         throw new NotImplementedException();
-    } //im gonna add GymClassRepository 
-
+    }
+    //here i can use IUserRepository to delete user profile.
+    
     public List<GymClassModel> GetGymClassesByUserAsync(int userld)
     {
         throw new NotImplementedException();
-    } //im gonna add GymClassRepository 
+    }
+
+    public Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
+    {
+        throw new NotImplementedException();
+    }
+    //im gonna add GymClassRepository 
 
 
     //this commit for check git on visual studio +++
