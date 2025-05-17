@@ -70,6 +70,7 @@ public class UserService : IUserService
     public Task<AuthResponseModel> DeleteUserProfileAsync(int userId)
     {
         var user = await _userRepository.DeleteAsync(userId);
+
         if (user == null)
         {
             return new AuthResponseModel { Success = false, Message = "User not found" };
