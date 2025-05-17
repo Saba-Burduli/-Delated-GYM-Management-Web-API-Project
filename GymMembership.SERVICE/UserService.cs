@@ -67,15 +67,13 @@ public class UserService : IUserService
         return await _userService.UpdateUserProfileAsync(model, userId); //i added this by myself
     } //here i can use IUserRepository to update user profile.
 
-    public Task<AuthResponseModel> DeleteUserProfileAsync(int userId)
+    public async Task<AuthResponseModel> DeleteUserProfileAsync(int userId)
     {
-        var user = await _userRepository.DeleteAsync(userId);
-
+        var user = await _userRepository.GetByIDAsync(userId);
         if (user == null)
-        {
             return new AuthResponseModel { Success = false, Message = "User not found" };
-        }
-
+        
+        await _userRepository.DeleteAsync(user.UserId);
         return new AuthResponseModel { Success = true, Message = "User deleted" };
     } //here i can use IUserRepository to delete user profile.
 
