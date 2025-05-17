@@ -8,7 +8,7 @@ public interface IUserService
     Task<AuthResponseModel> UserRegistrationAsync(int? roleld, RegisterUserModel model);
     Task<AuthResponseModel> LoginAsync(string username, string password);
     Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model,int userId);
-    Task<AuthResponseModel> DeleteUserProfileAsync();
+    Task<AuthResponseModel> DeleteUserProfileAsync( int userId);
     Task<bool> AssignGymClassesAsync(List<int > gymClassIds); //maybe I'm gonna change Task<AuthResponseModel,bool>
                                                                                 //In this <> i Have AuthResponseModel,bool together and
                                                                                 //think i dont need this
