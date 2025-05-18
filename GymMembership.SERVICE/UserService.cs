@@ -94,6 +94,4 @@ public class UserService : IUserService
     }
     //im gonna add GymClassRepository 
 
-
-    //this commit for check git on visual studio +++
 }
