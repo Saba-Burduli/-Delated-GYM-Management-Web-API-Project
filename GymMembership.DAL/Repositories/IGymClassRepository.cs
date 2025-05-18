@@ -41,9 +41,7 @@ public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
             await _context.GymClassUsers.AddRangeAsync(newAssignments);
             await _context.SaveChangesAsync();
         }
-
         return true;
-
     }
 
     public List<GymClass> GetGymClassesByUserAsync(int userld)
