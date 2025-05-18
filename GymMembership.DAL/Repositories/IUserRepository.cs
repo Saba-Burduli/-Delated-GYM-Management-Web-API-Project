@@ -37,7 +37,6 @@ public class UserRepository : BaseRepository<User>, IUserRepository
         return await _context.Users
             .Include(u => u.Person)
             .FirstOrDefaultAsync(u => u.UserId == userId);
-
     }
 
     public async Task<User> GetAllUserByIdAsync(int userId)
@@ -81,7 +80,6 @@ public class UserRepository : BaseRepository<User>, IUserRepository
         {
             throw new ArgumentNullException("Users cannot be null.");
         }
-
         return await _context.Users
             .Include(u => u.Roles)
             .FirstOrDefaultAsync(u => u.Roles.Any(r => r.RoleId == roleId));
@@ -97,9 +95,8 @@ public class UserRepository : BaseRepository<User>, IUserRepository
             .Where(u => u.Roles.Any(r => r.RoleName == "Trainer"))
             .ToListAsync(); //this is how we can actually get specific data for example if
                             //we need to get only Trainers We gonna use this type of code.
-
     }
-
+    
     public Task<List<User>> GetAllTrainersAsync()
     {
         if (_context==null || _context.Users == null)
@@ -112,6 +109,5 @@ public class UserRepository : BaseRepository<User>, IUserRepository
             .ToListAsync();
         //this is how we can actually get specific data for example if
         //we need to get only Trainers We gonna use this type of code.
-
     }
 }
