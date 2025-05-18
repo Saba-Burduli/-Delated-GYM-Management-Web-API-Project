@@ -43,7 +43,6 @@ public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
         }
         return true;
     }
-
     public List<GymClass> GetGymClassesByUserAsync(int userld)
     {
         throw new NotImplementedException();
