@@ -22,7 +22,11 @@ public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
 
     public Task<bool> AssignToGymClassesAsync(int userId, List<int> gymClassIds)
     {
-        throw new NotImplementedException();
+        if (userId == null || gymClassIds == null || gymClassIds.Count == 0)
+        {
+            throw new Exception("User Id or Gym Class Ids cannot be null"); //this is global Exeption
+        }
+        
     }
 
     public List<GymClass> GetGymClassesByUserAsync(int userld)
