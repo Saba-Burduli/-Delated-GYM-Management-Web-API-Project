@@ -10,11 +10,14 @@ public class UserService : IUserService
     private readonly IUserRepository _userRepository;
     private readonly IPasswordHasher _passwordHasher;
     private readonly IUserService _userService;
+    private readonly IGymClassRepository _GymClassRepository;
 
-    public UserService(IUserRepository userRepository, IUserService userService)
+    public UserService(IUserRepository userRepository, IUserService userService, IPasswordHasher passwordHasher, IGymClassRepository gymClassRepository)
     {
-        _userRepository = userRepository;
         _userService = userService;
+        _GymClassRepository = gymClassRepository;
+        _passwordHasher = passwordHasher;
+        _userRepository = userRepository;
     }
 
     public async Task<UserModel> GetUserProfileAsync(int userId)
@@ -79,7 +82,7 @@ public class UserService : IUserService
 
     public async Task<bool> AssignToGymClassesAsync(int userId,List<int> gymClassIds) //Added this methods name +To
     {
-        return await _userService.AssignToGymClassesAsync(userId,gymClassIds);
+        return await _GymClassRepository.AssignToGymClassesAsync(userId,gymClassIds);
     }
     //here i can use IUserRepository to delete user profile.
     
@@ -87,7 +90,7 @@ public class UserService : IUserService
     {
         throw new NotImplementedException();
     }
-
+    
     public Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
     {
         throw new NotImplementedException();
