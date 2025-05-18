@@ -77,9 +77,9 @@ public class UserService : IUserService
         return new AuthResponseModel { Success = true, Message = "User deleted" };
     }
 
-    public Task<bool> AssignToGymClassesAsync(List<int> gymClassIds) //Added this methods name +To
+    public async Task<bool> AssignToGymClassesAsync(int userId,List<int> gymClassIds) //Added this methods name +To
     {
-        throw new NotImplementedException();
+        return await _userService.AssignToGymClassesAsync(userId,gymClassIds);
     }
     //here i can use IUserRepository to delete user profile.
     
