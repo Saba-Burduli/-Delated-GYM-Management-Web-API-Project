@@ -34,15 +34,14 @@ public class UserService : IUserService
             UserName = user.UserName,
             Email = user.Email,
             RegistrationDate = user.RegistrationDate,
-        }; //this is manual mapping.
-    } //here i can use IUserRepository to get user profile.
-
+        };
+    } 
     public async Task<AuthResponseModel> UserRegistrationAsync(int? roleld, RegisterUserModel model)
     {
         // var user = await _userRepository.UserRegistrationAsync(); //i need this method to add in IUserRepository
         throw new NotImplementedException();
     }
-
+    
     public Task<AuthResponseModel> LoginAsync(string username, string password)
     {
         throw new NotImplementedException();
