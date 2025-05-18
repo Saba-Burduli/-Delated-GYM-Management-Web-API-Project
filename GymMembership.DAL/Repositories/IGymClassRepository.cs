@@ -6,7 +6,8 @@ namespace GymMembership.DAL.Repositories;
 
 public interface IGymClassRepository : IBaseRepository<GymClass>
 {
-    
+    Task<bool> AssignToGymClassesAsync(int userId,List<int > gymClassIds);
+    List<GymClass> GetGymClassesByUserAsync(int userld);
 }
 
 public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
@@ -17,6 +18,15 @@ public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
     {
         _context = context;
     }
-    
-    
+
+
+    public Task<bool> AssignToGymClassesAsync(int userId, List<int> gymClassIds)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<GymClass> GetGymClassesByUserAsync(int userld)
+    {
+        throw new NotImplementedException();
+    }
 }
