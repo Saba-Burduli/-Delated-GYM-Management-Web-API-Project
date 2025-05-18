@@ -1,6 +1,7 @@
 using GymMembership.DATA;
 using GymMembership.DATA.Entities;
 using GymMembership.DATA.Infastructures;
+using Microsoft.EntityFrameworkCore;
 
 namespace GymMembership.DAL.Repositories;
 
@@ -20,13 +21,29 @@ public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
     }
 
 
-    public Task<bool> AssignToGymClassesAsync(int userId, List<int> gymClassIds)
+    public async Task<bool> AssignToGymClassesAsync(int userId, List<int> gymClassIds)
     {
-        if (userId == null || gymClassIds == null || gymClassIds.Count == 0)
+        if (userId == null || gymClassIds == null || !gymClassIds.Any())
         {
-            throw new Exception("User Id or Gym Class Ids cannot be null"); //this is global Exeption
+            return false;
         }
-        
+
+        var existingAssigments = await _context.GymClassUsers
+            .Where(gc => gc.UserId == userId && !gymClassIds.Any())
+            .ToListAsync();
+
+        var newAssignments = gymClassIds.Where(id => !existingAssigments.Any(ea => ea.GymClassId == id))
+            .Select(id => new GymClassUsers { UserId = userId, GymClassId = id })
+            .ToList();
+
+        if (newAssignments.Any())
+        {
+            await _context.GymClassUsers.AddRangeAsync(newAssignments);
+            await _context.SaveChangesAsync();
+        }
+
+        return true;
+
     }
 
     public List<GymClass> GetGymClassesByUserAsync(int userld)
