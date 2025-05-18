@@ -19,8 +19,7 @@ public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
     {
         _context = context;
     }
-
-
+    
     public async Task<bool> AssignToGymClassesAsync(int userId, List<int> gymClassIds)
     {
         if (userId == null || gymClassIds == null || !gymClassIds.Any())
