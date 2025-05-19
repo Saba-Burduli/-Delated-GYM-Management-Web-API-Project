@@ -42,8 +42,11 @@ public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
         }
         return true;
     }
-    public List<GymClass> GetGymClassesByUserAsync(int userld)
+    public async List<GymClass> GetGymClassesByUserAsync(int userld)
     {
-        throw new NotImplementedException();
+        return await _context.GymClassUsers
+            .Where(gc => gc.UserId == userld)
+            .Select(gc => gc.GymClass)
+            .ToListAsync();
     }
 }
