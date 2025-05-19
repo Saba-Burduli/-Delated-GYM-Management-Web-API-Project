@@ -1,4 +1,5 @@
 using GymMembership.DAL.Repositories;
+using GymMembership.DATA.Entities;
 using GymMembership.SERVICE.DTOs.UserModels;
 using GymMembership.SERVICE.Interfaces;
 
@@ -38,8 +39,16 @@ public class UserService : IUserService
     } 
     public async Task<AuthResponseModel> UserRegistrationAsync(int? roleld, RegisterUserModel model)
     {
-        // var user = await _userRepository.UserRegistrationAsync(); //i need this method to add in IUserRepository
-        throw new NotImplementedException();
+        var existingUser = await _userRepository.GetAllUserByEmailAsync(model.Email);
+        if (existingUser!=null)
+        {
+            return new AuthResponseModel{Success = true, Message = "User already exists"};
+        }
+        // we need manual mapping in there for Person Class
+        
+        var lastAddedUser = await _userService.UserRegistrationAsync(roleld, model);
+        var roles = await _rolesRepository.GetAllAsync(); // we need rolesRepository
+        return new AuthResponseModel{Success = true, Message = "User added"};
     }
     
     public Task<AuthResponseModel> LoginAsync(string username, string password)
