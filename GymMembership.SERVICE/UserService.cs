@@ -87,7 +87,18 @@ public class UserService : IUserService
     
     public async Task<List<GymClassModel>> GetGymClassesByUserAsync(int userld)
     {
-        throw new NotImplementedException();
+        var user = await _gymClassRepository.GetGymClassesByUserAsync(userld);
+        if (user==null)
+        {
+            throw new NullReferenceException("User is null");
+        }
+
+        return GymClassModel()
+        {
+             //we have to add manual mapping in there
+             //here is website link for learn manual mapping :
+             //https://dev.to/drsimplegraffiti/manual-mapping-net-web-api-2do8
+        }
     }
     
     public Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
