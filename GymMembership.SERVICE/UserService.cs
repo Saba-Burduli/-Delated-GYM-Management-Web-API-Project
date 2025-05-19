@@ -85,14 +85,9 @@ public class UserService : IUserService
     }
     //here i can use IUserRepository to delete user profile.
     
-    public async List<GymClassModel> GetGymClassesByUserAsync(int userld)
+    public async Task<List<GymClassModel>> GetGymClassesByUserAsync(int userld)
     {
-        var user = await _gymClassRepository.GetGymClassesByUserAsync(userld);
-        if (user==null)
-        {
-            throw new Exception("User is null");
-        }
-        return user;
+        throw new NotImplementedException();
     }
     
     public Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
