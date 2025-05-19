@@ -8,7 +8,7 @@ namespace GymMembership.DAL.Repositories;
 public interface IGymClassRepository : IBaseRepository<GymClass>
 {
     Task<bool> AssignToGymClassesAsync(int userId,List<int > gymClassIds);
-    List<GymClass> GetGymClassesByUserAsync(int userld);
+    Task<List<GymClass>> GetGymClassesByUserAsync(int userld);
 }
 
 public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
@@ -42,7 +42,7 @@ public class GymClassRepository : BaseRepository<GymClass>, IGymClassRepository
         }
         return true;
     }
-    public async List<GymClass> GetGymClassesByUserAsync(int userld)
+    public async Task<List<GymClass>> GetGymClassesByUserAsync(int userld)
     {
         return await _context.GymClassUsers
             .Where(gc => gc.UserId == userld)
