@@ -101,9 +101,15 @@ public class UserService : IUserService
         }
     }
     
-    public Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
+    public async Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
     {
-        throw new NotImplementedException();
+        var user = await _userRepository.GetUserWithRolesByIdAsync(userld);
+        return UserRolesModel()
+        {
+            //we have to add manual mapping in there
+            //here is website link for learn manual mapping :
+            //https://dev.to/drsimplegraffiti/manual-mapping-net-web-api-2do8
+        }
     }
     //im gonna add GymClassRepository 
 }
