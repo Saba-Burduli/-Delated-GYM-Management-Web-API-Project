@@ -10,12 +10,12 @@ public class UserService : IUserService
     private readonly IUserRepository _userRepository;
     private readonly IPasswordHasher _passwordHasher;
     private readonly IUserService _userService;
-    private readonly IGymClassRepository _GymClassRepository;
+    private readonly IGymClassRepository _gymClassRepository;
 
     public UserService(IUserRepository userRepository, IUserService userService, IPasswordHasher passwordHasher, IGymClassRepository gymClassRepository)
     {
         _userService = userService;
-        _GymClassRepository = gymClassRepository;
+        _gymClassRepository = gymClassRepository;
         _passwordHasher = passwordHasher;
         _userRepository = userRepository;
     }
@@ -81,7 +81,7 @@ public class UserService : IUserService
 
     public async Task<bool> AssignToGymClassesAsync(int userId,List<int> gymClassIds) //Added this methods name +To
     {
-        return await _GymClassRepository.AssignToGymClassesAsync(userId,gymClassIds);
+        return await _gymClassRepository.AssignToGymClassesAsync(userId,gymClassIds);
     }
     //here i can use IUserRepository to delete user profile.
     
