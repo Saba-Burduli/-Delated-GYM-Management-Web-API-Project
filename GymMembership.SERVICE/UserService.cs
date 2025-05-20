@@ -12,13 +12,15 @@ public class UserService : IUserService
     private readonly IPasswordHasher _passwordHasher;
     private readonly IUserService _userService;
     private readonly IGymClassRepository _gymClassRepository;
+    private readonly IRoleRepository _rolesRepository;
 
-    public UserService(IUserRepository userRepository, IUserService userService, IPasswordHasher passwordHasher, IGymClassRepository gymClassRepository)
+    public UserService(IUserRepository userRepository, IUserService userService, IPasswordHasher passwordHasher, IGymClassRepository gymClassRepository,IRoleRepository rolesRepository)
     {
         _userService = userService;
         _gymClassRepository = gymClassRepository;
         _passwordHasher = passwordHasher;
         _userRepository = userRepository;
+        _rolesRepository = rolesRepository;
     }
 
     public async Task<UserModel> GetUserProfileAsync(int userId)
@@ -51,9 +53,13 @@ public class UserService : IUserService
         return new AuthResponseModel{Success = true, Message = "User added"};
     }
     
-    public Task<AuthResponseModel> LoginAsync(string username, string password)
+    public Task<AuthResponseModel> LoginAsync(LoginUserModel model)
     {
-        throw new NotImplementedException();
+        var user = _userRepository.GetAllUserByEmailAsync(model.Email);
+        if (user == null)
+            return Task.FromResult(new AuthResponseModel { Success = false, Message = "User not found" });
+        
+        return Task.FromResult(new AuthResponseModel { Success = true, Message = "User Logged in" });
     } //here i need Ipasswordhash.
 
     public async Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model, int userId)
