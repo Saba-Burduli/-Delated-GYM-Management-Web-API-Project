@@ -25,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Mapper\" />
     <Folder Include="Mapping\" />
   </ItemGroup>
 
