@@ -8,7 +8,7 @@ public static class UserMapper
     //we need UserRolesMapping method
     public static GymClassModel GymClassModelMapping(this GymClass entity)
     {
-        return new GymClassModel()
+        return new GymClassModel
         {
             GymClassId = entity.GymClassId,
             GymClassName = entity.GymClassName,
