@@ -1,3 +1,4 @@
+using System.Collections;
 using GymMembership.DAL.Repositories;
 using GymMembership.DATA.Entities;
 using GymMembership.SERVICE.DTOs.UserModels;
@@ -103,18 +104,26 @@ public class UserService : IUserService
     
     public async Task<List<GymClassModel>> GetGymClassesByUserAsync(int userld)
     {
-        var user = await _gymClassRepository.GetGymClassesByUserAsync(userld);
-        if (user==null)
+        var gymClasses = await _gymClassRepository.GetGymClassesByUserAsync(userld);
+        if (gymClasses==null)
         {
-            throw new NullReferenceException("User is null");
+            throw new NullReferenceException("gymClasses is null");
         }
-        return UserMapper.UserRolesMapping(user);
+      
+        return gymClasses.Select(g => new GymClassModel
+        {
+            GymClassName = g.GymClassName,
+            GymClassId = g.GymClassId,
+            // Add more mapping as needed
+        }).ToList();
+        // return  UserMapper.GymClassModelMapping(gymClasses).Result.FirstOrDefault(); this is manual mapping example and this is not working
+
     }
     
     public async Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
     {
         var user = await _userRepository.GetUserWithRolesByIdAsync(userld);
-       return UserMapper.UserRolesMapping(user);
+       return UserMapper.UserRolesMapping(user).Result.FirstOrDefault();
     }
     //im gonna add GymClassRepository 
 }
