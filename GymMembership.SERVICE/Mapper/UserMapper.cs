@@ -14,4 +14,15 @@ public static class UserMapper
             GymClassName = entity.GymClassName,
         };
     }
+
+    public static UserRolesModel UserRolesMapping(this User entity)
+    {
+        return new UserRolesModel()
+        {
+            UserId = entity.UserId,
+            UserName = entity.UserName,
+            Email = entity.Email
+        };
+    }
+    
 }
