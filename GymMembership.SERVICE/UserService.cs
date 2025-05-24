@@ -107,7 +107,7 @@ public class UserService : IUserService
         {
             throw new NullReferenceException("User is null");
         }
-
+        
         // return GymClassModel()
         // {
         //      //we have to add manual mapping in there
