@@ -6,23 +6,31 @@ namespace GymMembership.SERVICE.Mapper;
 public static class UserMapper
 { 
     //we need UserRolesMapping method
-    public static GymClassModel GymClassModelMapping(this GymClass entity)
+    public static Task<List<GymClassModel>> GymClassModelMapping(this GymClass entity)
     {
-        return new GymClassModel
+        var list = new List<GymClassModel>()
         {
-            GymClassId = entity.GymClassId,
-            GymClassName = entity.GymClassName,
+            new GymClassModel()
+            {
+                GymClassId = entity.GymClassId,
+                GymClassName = entity.GymClassName,
+            }
         };
+        return Task.FromResult(list);
     }
 
-    public static UserRolesModel UserRolesMapping(this User entity)
+    public static Task<List<UserRolesModel>> UserRolesMapping(this User entity)
     {
-        return new UserRolesModel()
+        var list = new List<UserRolesModel>()
         {
-            UserId = entity.UserId,
-            UserName = entity.UserName,
-            Email = entity.Email
+            new UserRolesModel()
+            {
+                UserId = entity.UserId,
+                UserName = entity.UserName,
+                Email = entity.Email
+            }
         };
+        return Task.FromResult(list);
+
     }
-    
 }
