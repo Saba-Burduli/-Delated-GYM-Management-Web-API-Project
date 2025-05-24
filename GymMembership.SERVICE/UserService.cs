@@ -119,7 +119,6 @@ public class UserService : IUserService
         // return  UserMapper.GymClassModelMapping(gymClasses).Result.FirstOrDefault(); this is manual mapping example and this is not working
 
     }
-    
     public async Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
     {
         var user = await _userRepository.GetUserWithRolesByIdAsync(userld);
