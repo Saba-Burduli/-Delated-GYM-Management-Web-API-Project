@@ -13,10 +13,6 @@ namespace GymMembership.API.Controllers
         {
             _serviceProvider = serviceProvider;
         }
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+       
     }
 }
