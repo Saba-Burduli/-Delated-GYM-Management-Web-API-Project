@@ -117,7 +117,6 @@ public class UserService : IUserService
             // Add more mapping as needed
         }).ToList();
         // return  UserMapper.GymClassModelMapping(gymClasses).Result.FirstOrDefault(); this is manual mapping example and this is not working
-
     }
     public async Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
     {
