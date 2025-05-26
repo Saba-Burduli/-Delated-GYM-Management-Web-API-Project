@@ -76,15 +76,13 @@ public class UserService : IUserService
 
         if (!string.IsNullOrEmpty(model.Password))
         {
-            //i have to hashpassword method in there but check dachis project
-            bool verified =
-                await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,
+            bool verified = await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,
                     model.Password); //added this by myself (and i have to check if its right)
             return new AuthResponseModel { Success = true, Message = "All good" };
         }
 
         return await _userService.UpdateUserProfileAsync(model, userId); //i added this by myself
-    } //here i can use IUserRepository to update user profile.
+    } 
 
     public async Task<AuthResponseModel> DeleteUserProfileAsync(int userId)
     {
@@ -100,7 +98,6 @@ public class UserService : IUserService
     {
         return await _gymClassRepository.AssignToGymClassesAsync(userId,gymClassIds);
     }
-    //here i can use IUserRepository to delete user profile.
     
     public async Task<List<GymClassModel>> GetGymClassesByUserAsync(int userld)
     {
@@ -123,5 +120,4 @@ public class UserService : IUserService
         var user = await _userRepository.GetUserWithRolesByIdAsync(userld);
        return UserMapper.UserRolesMapping(user).Result.FirstOrDefault();
     }
-    //im gonna add GymClassRepository 
 }
