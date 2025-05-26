@@ -17,10 +17,11 @@ namespace GymMembership.API.Controllers
         [HttpGet("GetUserProfile/{userId:int}")]
         public Task<User> GetUserProfileAsync(int userId)
         {
-            if (use)
+            if (userId == null)
             {
-                
+                throw new ArgumentNullException(nameof(userId));
             }
+            return Task.FromResult(new User());
         }
         
         // public async Task<UserModel> GetUserProfileAsync(int userId)
