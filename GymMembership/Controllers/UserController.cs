@@ -13,6 +13,7 @@ namespace GymMembership.API.Controllers
         {
             _serviceProvider = serviceProvider;
         }
+        
        
     }
 }
