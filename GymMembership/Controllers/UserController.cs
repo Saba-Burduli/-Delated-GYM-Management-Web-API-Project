@@ -20,7 +20,6 @@ namespace GymMembership.API.Controllers
             if (use)
             {
                 
-                
             }
         }
         
