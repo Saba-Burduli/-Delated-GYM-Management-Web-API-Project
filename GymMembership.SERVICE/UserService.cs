@@ -123,5 +123,4 @@ public class UserService : IUserService
         var user = await _userRepository.GetUserWithRolesByIdAsync(userld);
        return UserMapper.UserRolesMapping(user).Result.FirstOrDefault();
     }
-    //im gonna add GymClassRepository 
 }
