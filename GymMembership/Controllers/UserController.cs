@@ -24,7 +24,7 @@ namespace GymMembership.API.Controllers
             _membershipService = membershipService;
         }
 
-        // [GET Method] User/GetUserProfile()
+        // [GET Method] User/GetUserProfile(int userId)
         [HttpGet("GetUserProfile/{userId:int}")]
         public async Task<IActionResult> GetUserProfileAsync(int userId)
         {
@@ -39,6 +39,8 @@ namespace GymMembership.API.Controllers
             }
             return BadRequest();
         }
+
+        // [POST Method] User/UserRegistration(int? roleld, RegisterUserModel model)
 
         [HttpPost("UserRegistration,{roleld:int},{model:frombody}")]
         public async Task<IActionResult> UserRegistrationAsync(int? roleld, RegisterUserModel model)
@@ -56,14 +58,104 @@ namespace GymMembership.API.Controllers
 
             return BadRequest();
         }
-        
-        
+
+        // [POST Method] User/Login(LoginUserModel model)
+        [HttpPost("Login{model:frombody}")] //im gonna check if {model:fromBody is needed}
+        public async Task<IActionResult> LoginAsync(LoginUserModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _userService.LoginAsync(model);
+                if (!result.Success)
+                {
+                    return BadRequest("Cannot Login right now");
+                }
+                return Ok(result.Message);
+            }
+            return BadRequest();
+        }
+
+        // [PUT Method] User/UpdateUserProfile(UpdateUserModel model, int userId)
+        [HttpPut("UpdateUserProfile/{userId:int},{model:frombody}")] //im gonna check if {model:fromBody is needed}
+        public async Task<IActionResult> UpdateUserProfileAsync(UpdateUserModel model, int userId)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _userService.UpdateUserProfileAsync(model, userId);
+                if (!result.Success)
+                {
+                    return BadRequest(result.Message);
+                }
+                return Ok(result.Message);
+            }
+
+            return BadRequest("Something went wrong in Update User Profile");
+        }
+
+        //[DELATE Method] DeleteUserProfile(int userId)
+        [HttpDelete("DeleteUserProfile/{userId:int}")]
+        public async Task<IActionResult> DeleteUserProfileAsync(int userId)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _userService.DeleteUserProfileAsync(userId);
+                if (!result.Success)
+                {
+                    return BadRequest(result.Message);
+                }
+                return Ok(result.Message);
+            }
+            return BadRequest();
+        }
+
+
+        public async Task<IActionResult> AssignToGymClassesAsync(int userId, List<int> gymClassIds)
+        {
+            if (ModelState.IsValid)
+            {
+                if (gymClassIds == null || !gymClassIds.Any())
+                {
+                    return BadRequest("Gym class IDs cannot be null or empty.");
+                }
+
+                bool resultforbool = await _userService.AssignToGymClassesAsync(userId, gymClassIds);
+
+                if (resultforbool)
+                {
+                    return Ok("User assigned to gym classes successfully");
+                }
+            }
+            return BadRequest();
+        }
+
+
+        //[HttpPost("assign-to-gym-classes")]
+        // public async Task<IActionResult> AssignToGymClasses(int userId, [FromBody] List<int> gymClassIds)
+        // {
+        //     if (gymClassIds == null || !gymClassIds.Any())
+        //     {
+        //         return BadRequest("You must provide at least one gym class ID.");
+        //     }
+        // 
+        //     bool result = await _yourService.AssignToGymClassesAsync(userId, gymClassIds);
+        // 
+        //     if (result)
+        //     {
+        //         return Ok(new { success = true, message = "User assigned to gym classes successfully." });
+        //     }
+        //     else
+        //     {
+        //         return StatusCode(500, new { success = false, message = "Failed to assign user to gym classes." });
+        //     }
+        // }
+        // 
 
         
         
-        // public Task<AuthResponseModel> LoginAsync(LoginUserModel model)
-        // public async Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model, int userId)
-        // public async Task<AuthResponseModel> DeleteUserProfileAsync(int userId)
+
+
+        
+        
         // public async Task<bool> AssignToGymClassesAsync(int userId,List<int> gymClassIds) //Added this methods name +To
         // public async Task<List<GymClassModel>> GetGymClassesByUserAsync(int userld)
         // public async Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
