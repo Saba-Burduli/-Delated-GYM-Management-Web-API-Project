@@ -11,6 +11,6 @@ public interface IUserService
     Task<AuthResponseModel> DeleteUserProfileAsync( int userId);
     Task<bool> AssignToGymClassesAsync(int userId,List<int > gymClassIds);  //we implement this method in GymClassRepository(delate from here)
     Task<List<GymClassModel>> GetGymClassesByUserAsync(int userld); //we implement this method in GymClassRepository(delate from here) 
-    Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld); //new method
+    Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld); //we should gonna add roleID ?
     
 }
