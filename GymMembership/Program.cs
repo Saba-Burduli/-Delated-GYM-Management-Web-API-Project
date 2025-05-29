@@ -15,10 +15,17 @@ var builder = WebApplication.CreateBuilder(args);
 //This code registers the GymMembershipDbContext with the app's services and configures it to use SQL Server.
 //It reads the connection string named "GymConnectionString" from appsettings.json to connect to the database.
 builder.Services.AddDbContext<GymMembershipDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("GymConnectionString"))); // i should add this connection string in appsetting.Json
+{
+    options.UseSqlServer(
+        builder.Configuration
+            .GetConnectionString("GymConnectionString")); // i should add this connection string in appsetting.Json
+});
 
 
 // i need JWT tokens implementation in there ...
+
+//in there i should add builder.Services.AddAuthorization();
+builder.Services.AddHttpContextAccessor();
 
 
 //Dependency Injection (DI) , Register , Repositories , Controllers ..
@@ -51,13 +58,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseHttpsRedirection();
 
-var app = builder.Build();
+app.UseAuthentication();
 
-app.MapGet("/", () => "Hello World!");
+app.UseAuthorization();
+
+app.MapControllers();
 
 app.Run();
-
 
 
 
