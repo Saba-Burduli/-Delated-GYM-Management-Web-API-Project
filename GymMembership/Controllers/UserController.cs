@@ -108,7 +108,8 @@ namespace GymMembership.API.Controllers
             return BadRequest();
         }
 
-
+        //[POST METHOD] AssingToGymClasses(int userId, List<int> gymClassIds)
+        [HttpPost("AssignToGymClasses/{userId:int},{gymClassIds:frombody}")] //should i need this things ?
         public async Task<IActionResult> AssignToGymClassesAsync(int userId, List<int> gymClassIds)
         {
             if (ModelState.IsValid)
@@ -127,38 +128,42 @@ namespace GymMembership.API.Controllers
             }
             return BadRequest();
         }
+        //maybe there is some ussue with implement If(ModelState.IsValid) (U should see Dachis Project)
 
+        [HttpGet("GetGymClassesByUser/{userld:int}")]
+        public async Task<IActionResult> GetGymClassesByUserAsync(int userld)
+        {
+            if (ModelState.IsValid)
+            {
+                return BadRequest();
+            }
 
-        //[HttpPost("assign-to-gym-classes")]
-        // public async Task<IActionResult> AssignToGymClasses(int userId, [FromBody] List<int> gymClassIds)
-        // {
-        //     if (gymClassIds == null || !gymClassIds.Any())
-        //     {
-        //         return BadRequest("You must provide at least one gym class ID.");
-        //     }
-        // 
-        //     bool result = await _yourService.AssignToGymClassesAsync(userId, gymClassIds);
-        // 
-        //     if (result)
-        //     {
-        //         return Ok(new { success = true, message = "User assigned to gym classes successfully." });
-        //     }
-        //     else
-        //     {
-        //         return StatusCode(500, new { success = false, message = "Failed to assign user to gym classes." });
-        //     }
-        // }
-        // 
+            var result = await _userService.GetGymClassesByUserAsync(userld);
+            if (result == null || !result.Any())
+            {
+                return NotFound("There is no GymClass or User with this Id");
+            }
 
+            return Ok("User and GymClass founded !");
+        }
+
+        //[GET METHOD ] GetUserWithRolesByIdAsync(int userld)
+        [HttpGet("Get User With Roles By Id{userld:int}")]
+        public async Task<IActionResult> GetUserWithRolesByIdAsync(int userld)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _userService.GetUserWithRolesByIdAsync(userld);
+                if (result ==null)
+                {
+                    return BadRequest("There is no User with this role");
+                }
+
+                return Ok("We found User with this role");
+            }
+
+            return BadRequest("Somethings wrong !");
+        }
         
-        
-
-
-        
-        
-        // public async Task<bool> AssignToGymClassesAsync(int userId,List<int> gymClassIds) //Added this methods name +To
-        // public async Task<List<GymClassModel>> GetGymClassesByUserAsync(int userld)
-        // public async Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
-        //
     }
 }

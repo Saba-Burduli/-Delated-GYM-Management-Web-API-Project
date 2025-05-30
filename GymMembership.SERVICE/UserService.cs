@@ -44,24 +44,28 @@ public class UserService : IUserService
     public async Task<AuthResponseModel> UserRegistrationAsync(int? roleld, RegisterUserModel model)
     {
         var existingUser = await _userRepository.GetAllUserByEmailAsync(model.Email);
+        
         if (existingUser!=null)
         {
             return new AuthResponseModel{Success = true, Message = "User already exists"};
         }
-        // we need manual mapping in there for Person Class
+        
+        var personMapping = UserMapper.UserRegistrationAsync(roleld, model); 
         
         var lastAddedUser = await _userService.UserRegistrationAsync(roleld, model);
+        
         var roles = await _rolesRepository.GetAllAsync(); // we need rolesRepository
+        
         return new AuthResponseModel{Success = true, Message = "User added"};
     }
     
-    public Task<AuthResponseModel> LoginAsync(LoginUserModel model)
+    public async Task<AuthResponseModel> LoginAsync(LoginUserModel model)
     {
-        var user = _userRepository.GetAllUserByEmailAsync(model.Email);
-        if (user == null)
-            return Task.FromResult(new AuthResponseModel { Success = false, Message = "User not found" });
+        var user = await _userRepository.GetAllUserByEmailAsync(model.Email);
+        if (user == null || !await _passwordHasher.VerifyPasswordHashAsync(model.Password , user.PasswordHash))
+            return await Task.FromResult(new AuthResponseModel { Success = false, Message = "User not found" });
         
-        return Task.FromResult(new AuthResponseModel { Success = true, Message = "User Logged in" });
+        return await Task.FromResult(new AuthResponseModel { Success = true, Message = "User Logged in" });
     } //here i need Ipasswordhash.
 
     public async Task<AuthResponseModel> UpdateUserProfileAsync(UpdateUserModel model, int userId)
@@ -118,6 +122,6 @@ public class UserService : IUserService
     public async Task<UserRolesModel> GetUserWithRolesByIdAsync(int userld) //new method
     {
         var user = await _userRepository.GetUserWithRolesByIdAsync(userld);
-       return UserMapper.UserRolesMapping(user).Result.FirstOrDefault();
+        return UserMapper.UserRolesMapping(user).Result.FirstOrDefault();
     }
 }
