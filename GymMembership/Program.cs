@@ -9,6 +9,7 @@ using GymMembership.SERVICE;
 using GymMembership.SERVICE.DTOs;
 using GymMembership.SERVICE.Interfaces;
 using GymMembership.SERVICE.Mapper;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,12 +39,11 @@ builder.Services.AddScoped<IAdminService, AdminService>();
 //Register Repositories ...
 builder.Services.AddScoped<IGymClassRepository, GymClassRepository>();
 builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
+builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 //Register Controllers ...
-builder.Services.AddControllers();
-
 builder.Services.AddControllers();
 
 //Add the Swagger generator to the services collection in Program.cs:
