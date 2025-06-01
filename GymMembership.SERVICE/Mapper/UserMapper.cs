@@ -36,7 +36,7 @@ public static class UserMapper
     }
     
     // this is UserRegistationAsync Mapping in Mapping Directorie
-   public static async Task<Person> UserRegistrationAsync(int? roleld, RegisterUserModel model)
+   public static async Task<Person> UserRegistrationAsync(RegisterUserModel model)
    {
        if (model?.Person == null)
        {
