@@ -52,7 +52,7 @@ public class UserService : IUserService
             return new AuthResponseModel { Success = true, Message = "User already exists"};
         }
         
-        Person personEntity = UserMapper.UserRegistrationAsync(roleld, model); 
+        Person personEntity = await UserMapper.UserRegistrationAsync(model);  //I added await by myself. If this line gonna have some trouble .. It's because of await 
         
         var lastAddedUser = await _personRepository.GetLastAddedUserAsync(personEntity);
         
