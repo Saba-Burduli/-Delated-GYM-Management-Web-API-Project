@@ -12,13 +12,13 @@ public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
     private readonly IPasswordHasher _passwordHasher;
-    private readonly IUserService _userService;
+    //private readonly IUserService _userService; you can't eject something that inheritenced 
     private readonly IGymClassRepository _gymClassRepository;
     private readonly IRoleRepository _rolesRepository;
 
-    public UserService(IUserRepository userRepository, IUserService userService, IPasswordHasher passwordHasher, IGymClassRepository gymClassRepository,IRoleRepository rolesRepository)
+    public UserService(IUserRepository userRepository, /*IUserService userService,*/ IPasswordHasher passwordHasher, IGymClassRepository gymClassRepository,IRoleRepository rolesRepository)
     {
-        _userService = userService;
+        // _userService = userService;
         _gymClassRepository = gymClassRepository;
         _passwordHasher = passwordHasher;
         _userRepository = userRepository;
