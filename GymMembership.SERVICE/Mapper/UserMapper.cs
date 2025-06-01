@@ -38,6 +38,31 @@ public static class UserMapper
     // this is UserRegistationAsync Mapping in Mapping Directorie
    public static async Task<Person> UserRegistrationAsync(int? roleld, RegisterUserModel model)
    {
+       if (model?.Person == null)
+       {
+           throw new ArgumentException(nameof(model));
+       }
+
+       if (string.IsNullOrEmpty(model.Person.FirstName))
+       {
+           throw new ArgumentException("FirstName is required");
+       }
+       
+       if (string.IsNullOrEmpty(model.Person.LastName))
+       {
+           throw new ArgumentException("LastName is required");
+       }
+       
+       if (string.IsNullOrEmpty(model.Person.Phone))
+       {
+           throw new ArgumentException("Phone is required");
+       }
+       
+       if (string.IsNullOrEmpty(model.Person.Address))
+       {
+           throw new ArgumentException("Address is required");
+       }
+       
        var person = new Person()
        {
            FirstName = model.Person.FirstName,
