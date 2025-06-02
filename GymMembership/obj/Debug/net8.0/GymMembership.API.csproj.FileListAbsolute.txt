@@ -589,15 +589,10 @@ C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembershi
 C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets\msbuild.GymMembership.API.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets\msbuild.GymMembership.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets\msbuild.build.GymMembership.API.props
-C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GymMembership.API.props
-C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GymMembership.API.props
-C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembe.C1454272.Up2Date
 C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.dll
 C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\refint\GymMembership.API.dll
 C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.pdb
 C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\GymMembership.API.genruntimeconfig.cache
 C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\ref\GymMembership.API.dll
+C:\Users\User\RiderProjects\-Delated-GYM-Management-Web-API-Project\GymMembership\obj\Debug\net8.0\staticwebassets.build.json.cache

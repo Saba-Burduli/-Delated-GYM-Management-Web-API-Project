@@ -12,17 +12,19 @@ public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
     private readonly IPasswordHasher _passwordHasher;
-    private readonly IUserService _userService;
+    //private readonly IUserService _userService; you can't eject something that inheritenced 
     private readonly IGymClassRepository _gymClassRepository;
     private readonly IRoleRepository _rolesRepository;
+    public readonly IPersonRepository _personRepository;
 
-    public UserService(IUserRepository userRepository, IUserService userService, IPasswordHasher passwordHasher, IGymClassRepository gymClassRepository,IRoleRepository rolesRepository)
+    public UserService(IUserRepository userRepository, /*IUserService userService,*/ IPasswordHasher passwordHasher, IGymClassRepository gymClassRepository,IRoleRepository rolesRepository,IPersonRepository personRepository)
     {
-        _userService = userService;
+        // _userService = userService;
         _gymClassRepository = gymClassRepository;
         _passwordHasher = passwordHasher;
         _userRepository = userRepository;
         _rolesRepository = rolesRepository;
+        _personRepository = personRepository;
     }
 
     public async Task<UserModel> GetUserProfileAsync(int userId)
@@ -47,14 +49,23 @@ public class UserService : IUserService
         
         if (existingUser!=null)
         {
-            return new AuthResponseModel{Success = true, Message = "User already exists"};
+            return new AuthResponseModel { Success = true, Message = "User already exists"};
         }
         
-        var personMapping = UserMapper.UserRegistrationAsync(roleld, model); 
+        Person personEntity = await UserMapper.UserRegistrationAsync(model);  //I added await by myself. If this line gonna have some trouble .. It's because of await 
         
-        var lastAddedUser = await _userService.UserRegistrationAsync(roleld, model);
+        var lastAddedUser = await _personRepository.GetLastAddedUserAsync(personEntity);
         
         var roles = await _rolesRepository.GetAllAsync(); // we need rolesRepository
+        var newUser = new User
+        {
+            UserName = model.UserName,
+            PasswordHash = await _passwordHasher.HashPasswordAsync(model.Password),
+            Email = model.Email,
+            Person = lastAddedUser,
+            Roles = roles.Where(r => r.RoleId == model.RoleId).ToList(),
+
+        };
         
         return new AuthResponseModel{Success = true, Message = "User added"};
     }
@@ -79,13 +90,13 @@ public class UserService : IUserService
             user.UserName = model.UserName;
 
         if (!string.IsNullOrEmpty(model.Password))
-        {
-            bool verified = await _passwordHasher.VerifyPasswordHashAsync(user.PasswordHash,
-                    model.Password); //added this by myself (and i have to check if its right)
-            return new AuthResponseModel { Success = true, Message = "All good" };
+        { 
+            await _passwordHasher.HashPasswordAsync(model.Password); //added this by myself (and i have to check if its right)
         }
+        
+        await _userRepository.UpdateAsync(user); //i added this by myself
 
-        return await _userService.UpdateUserProfileAsync(model, userId); //i added this by myself
+        return new AuthResponseModel { Success = true, Message = "User Profile successfuly Updated !" };
     } 
 
     public async Task<AuthResponseModel> DeleteUserProfileAsync(int userId)
