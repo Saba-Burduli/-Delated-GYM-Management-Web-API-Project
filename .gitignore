@@ -1,0 +1,8 @@
+/GymMembership.sln
+/bin/
+/obj/
+.idea/
+*.iml
+*.db
+*.pid
+*.cache
