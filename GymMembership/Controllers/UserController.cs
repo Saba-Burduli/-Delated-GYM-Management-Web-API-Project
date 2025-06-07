@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 
 
+
 namespace GymMembership.API.Controllers
 {
     [Route("api/[controller]")]
