@@ -1,9 +1,0 @@
-C:\Users\User\Desktop\-Delated-GYM-Management-Web-API-Project\GymMembership.DATA\obj\Debug\net8.0\GymMembership.DATA.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\-Delated-GYM-Management-Web-API-Project\GymMembership.DATA\obj\Debug\net8.0\GymMembership.DATA.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Desktop\-Delated-GYM-Management-Web-API-Project\GymMembership.DATA\obj\Debug\net8.0\GymMembership.DATA.AssemblyInfoInputs.cache
-C:\Users\User\Desktop\-Delated-GYM-Management-Web-API-Project\GymMembership.DATA\obj\Debug\net8.0\GymMembership.DATA.AssemblyInfo.cs
-C:\Users\User\Desktop\-Delated-GYM-Management-Web-API-Project\GymMembership.DATA\obj\Debug\net8.0\GymMembership.DATA.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\-Delated-GYM-Management-Web-API-Project\GymMembership.DATA\obj\Debug\net8.0\GymMembership.DATA.sourcelink.json
-C:\Users\User\Desktop\-Delated-GYM-Management-Web-API-Project\GymMembership.DATA\obj\Debug\net8.0\GymMembership.DATA.dll
-C:\Users\User\Desktop\-Delated-GYM-Management-Web-API-Project\GymMembership.DATA\obj\Debug\net8.0\refint\GymMembership.DATA.dll
-C:\Users\User\Desktop\-Delated-GYM-Management-Web-API-Project\GymMembership.DATA\obj\Debug\net8.0\GymMembership.DATA.pdb
