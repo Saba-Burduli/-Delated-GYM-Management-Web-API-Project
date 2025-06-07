@@ -6,4 +6,4 @@
 *.db
 *.pid
 *.cache
-/.vs/
+.vs/
