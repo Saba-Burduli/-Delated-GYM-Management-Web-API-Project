@@ -1,5 +1,5 @@
 
-<h1> 💪 GYM Membership Web API</h1>
+<h1> GYM Membership Web API</h1>
 
 Using in ASP.NET Core Entity Framework (ORM) is most Popular and correct Practice for our Backend Projects.In This Project I'm gonna Create HTTP Controllers for API ofc. Also I'm gonna Use Some Security standart's Like General Data Protection Regulation (GDPR) And Also I'm gonna use Data Protection for our future Users.
 
@@ -20,7 +20,7 @@ Secured is mostly:
 We gonna add and Create in IRepository Folder.Because If non ethical hacker trying to crack your program and functionality its easy to get in Service layer (Business Layer in API). So its Common Way to Implement this important mathods in Repository's Folder(In API Layer)
 <br>
 <br>
-💡 Let's Talk about layers in my Project :
+ Let's Talk about layers in my Project :
 
 <ul>
   
@@ -33,7 +33,7 @@ We gonna add and Create in IRepository Folder.Because If non ethical hacker tryi
 
 <br>
 
-<h2>⬜ And Dive deeper in this Layers :</h2>
+<h2> And Dive deeper in this Layers :</h2>
 
 <ol>
 
@@ -50,18 +50,18 @@ We gonna add and Create in IRepository Folder.Because If non ethical hacker tryi
     </p>
 
 
-   <h3> <li> 🔗 Service Layer</li></h3>
+   <h3> <li>  Service Layer</li></h3>
         <p> The Service Layer acts as an intermediary between the API layer and the data access layer (DAL).
         It contains business logic and ensures a clean separation of concerns.
         </p>
         
         
-  <h3> <li> 🔗 DAL (Data Access Layer)</li></h3>
+  <h3> <li>  DAL (Data Access Layer)</li></h3>
       <p>The DAL handles direct interactions with the database, abstracting raw database operations.
         </p>
       
       
-  <h3> <li> 🔗 Data Layer</li> </h3>
+  <h3> <li>  Data Layer</li> </h3>
           <p>The Data Layer consists of models and database configurations, ensuring proper database mapping. 
         </p>
 
